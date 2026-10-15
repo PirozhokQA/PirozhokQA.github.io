@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "width": 360,
+    "height": 640,
+    "source_asset_id": "fe5e4862e7e9083c"
+  },
+  "waves": {
+    "width": 480,
+    "height": 640,
+    "source_asset_id": "d5b45d3aea27a022"
+  },
+  "nails-chocolate": {
+    "width": 480,
+    "height": 640,
+    "source_asset_id": "b18aea457a7730f7"
+  },
+  "nails-lilac": {
+    "width": 616,
+    "height": 640,
+    "source_asset_id": "ebdedd912e1430c0"
+  },
+  "nails-red": {
+    "width": 480,
+    "height": 640,
+    "source_asset_id": "7ed49698dc9870a0"
+  },
+  "hair-copper": {
+    "width": 485,
+    "height": 640,
+    "source_asset_id": "e58ca13374daf331"
+  },
+  "hair-blonde": {
+    "width": 360,
+    "height": 640,
+    "source_asset_id": "83af3c555657fa5c"
+  },
+  "hair-braid": {
+    "width": 360,
+    "height": 640,
+    "source_asset_id": "342ad0a670d7d28a"
+  },
+  "seda": {
+    "width": 150,
+    "height": 150,
+    "source_asset_id": "780ce00490e05f0b"
+  },
+  "diana": {
+    "width": 150,
+    "height": 150,
+    "source_asset_id": "5dc44fd62403c38f"
+  },
+  "narine": {
+    "width": 150,
+    "height": 150,
+    "source_asset_id": "c8be71a80dc0a346"
+  },
+  "edita": {
+    "width": 150,
+    "height": 150,
+    "source_asset_id": "8a182f54b79f5227"
+  }
+}
