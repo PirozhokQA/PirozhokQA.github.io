@@ -1,0 +1,7 @@
+# Horizontal floral header
+
+Created with the built-in imagegen tool from the user-provided entrance photograph as reference. Decorative illustration, not salon work photography. Saved at ../assets/header-flowers.png.
+
+## Exact final prompt
+
+Create one new website header illustration using the attached photograph ONLY as a reference for the flowers decorating the Klimt salon entrance. The asset is a WIDE HORIZONTAL FLORAL GARLAND, aspect ratio 3:1, ideally 1536 x 512. Flower clusters flow from the left edge all the way to the right edge in one natural horizontal ribbon. Use creamy white hydrangea clusters, soft blush pink and pale lilac blooms, a few rich wine/burgundy hydrangea clusters, small muted green leaves. The flowers fill a loose band through the horizontal centre of the canvas, occupying around 65 percent of its height, with a few little petals and leaves reaching above and below. Cutout composition on genuinely transparent background; transparent gaps between individual flowers. Elegant matte botanical illustration with realistic petal detail, matching the reference entrance's flowers. Balanced but naturally irregular rhythm of larger and smaller clusters along the entire width. There must be NO downward side, NO L-shape, NO corner, NO wreath, NO arch, NO vertical garland. No text, logo, people, building, vehicles, vases, ribbons, frames, checkerboard or background. This replaces the previous corner decoration: the desired composition is strictly a long horizontal floral page header.

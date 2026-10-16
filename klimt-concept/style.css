@@ -20,7 +20,7 @@
 /* The floral entrance becomes a distinctive, restrained brand motif. */
 :root{--ink:#4a2639;--rose-deep:#ba8b9f}
 .hero-main{isolation:isolate}
-.hero-floral{position:absolute;z-index:4;left:-69px;top:-46px;width:calc(100% + 105px);max-width:none;height:auto;pointer-events:none;transform-origin:35% 8%;animation:floral-breath 9s ease-in-out infinite alternate}
+
 .hero-copy h2 em,.section-title em,.work-title h2 em{color:#855369}
 .intro,.work-title>p,.film-copy>p:not(.kicker):not(.film-source),.contact-copy>p:first-child{font-size:14px}
 .service-body p{font-size:14px}.service-aside>p{font-size:13px}.work-item figcaption{font-size:11px}
@@ -28,6 +28,29 @@
 @keyframes floral-breath{from{transform:translateY(0) rotate(-.4deg)}to{transform:translateY(-3px) rotate(.45deg)}}
 @media(min-width:1101px){.wordmark{font-size:clamp(180px,26vw,390px)}.hero-stage{grid-template-columns:225px minmax(0,360px) minmax(0,300px);justify-content:space-between;margin-top:-34px;gap:6%}.hero-copy{padding-top:70px}.detail-photo{margin-top:70px}.hero-foot{padding-top:30px}}
 @media(min-width:1600px){.wordmark{font-size:410px}.hero-stage{grid-template-columns:240px minmax(0,380px) minmax(0,320px)}}
-@media(max-width:1100px){.hero-floral{left:-50px;top:-35px;width:calc(100% + 78px)}.intro{font-size:12px}.entrance-note{gap:18px}.entrance-note>img{width:90px;height:90px}.entrance-note>p{font-size:23px}}
-@media(max-width:767px){.hero-floral{left:-29px;top:-21px;width:calc(100% + 47px)}.intro,.work-title>p,.film-copy>p:not(.kicker):not(.film-source),.contact-copy>p:first-child{font-size:13px}.service-body p{font-size:13px}.work-item figcaption{font-size:9px}.entrance-note{margin-top:23px;gap:20px}.entrance-note>img{width:80px;height:80px}.entrance-note>p{font-size:25px;max-width:190px}:lang(hy) .entrance-note>p{font-size:20px}.film-copy>p:not(.kicker):not(.film-source){font-size:11px}.hero-main:before{z-index:-1}}
-@media(prefers-reduced-motion:reduce){.hero-floral{animation:none}}
+@media(max-width:1100px){.intro{font-size:12px}.entrance-note{gap:18px}.entrance-note>img{width:90px;height:90px}.entrance-note>p{font-size:23px}}
+@media(max-width:767px){.intro,.work-title>p,.film-copy>p:not(.kicker):not(.film-source),.contact-copy>p:first-child{font-size:13px}.service-body p{font-size:13px}.work-item figcaption{font-size:9px}.entrance-note{margin-top:23px;gap:20px}.entrance-note>img{width:80px;height:80px}.entrance-note>p{font-size:25px;max-width:190px}:lang(hy) .entrance-note>p{font-size:20px}.film-copy>p:not(.kicker):not(.film-source){font-size:11px}.hero-main:before{z-index:-1}}
+@media(prefers-reduced-motion:reduce){}
+
+/* Larger, readable photo captions on every screen. */
+.hero-caption{font-size:16px;line-height:1.5;letter-spacing:0;align-items:center;gap:14px;color:var(--ink)}
+.frame-controls button{font-size:13px;min-width:40px;min-height:44px;color:#69505c}
+.detail-photo figcaption{font-size:15px;line-height:1.55;letter-spacing:0;color:var(--ink);gap:10px;margin-top:15px}
+.detail-photo figcaption span{font-size:12px;color:#765e69;padding-top:2px;flex-shrink:0}
+.work-item figcaption{font-size:16px;line-height:1.55;color:var(--ink);gap:13px;margin-top:16px;font-weight:500}
+.work-item figcaption span:first-child{font-size:12px;color:#765e69;flex-shrink:0;padding-top:2px}
+.work-item figcaption span:last-child{min-width:0;overflow-wrap:anywhere}
+.service-aside figcaption{font-size:15px;line-height:1.6;color:#69505c}
+.film-poster-caption{font-size:14px;line-height:1.6}
+.lightbox figcaption{font-size:16px;line-height:1.6}
+.team-person p{font-size:14px;line-height:1.6;color:#69505c}
+@media(max-width:767px){.hero-caption{font-size:14px;line-height:1.5;align-items:flex-start;gap:4px;margin-top:13px}.frame-controls button{font-size:13px;min-width:36px;min-height:44px}.detail-photo figcaption{font-size:14px;line-height:1.55;gap:7px;margin-top:13px}.detail-photo figcaption span{font-size:11px}.work-item figcaption{font-size:14px;line-height:1.6;gap:8px;margin-top:13px}.work-item figcaption span:first-child{font-size:11px}.film-poster-caption{font-size:13px;line-height:1.55}.lightbox figcaption{font-size:14px}.team-person p{font-size:14px}}
+
+/* A horizontal floral masthead replaces all corner ornaments. */
+.floral-masthead{height:144px;position:relative;overflow:hidden;background:#faf7f4}
+.floral-canopy{position:absolute;inset:-4px 0;background-image:url('/klimt-concept/assets/header-flowers.png');background-repeat:repeat-x;background-size:auto 195px;background-position:center center;animation:canopy-breath 12s ease-in-out infinite alternate}
+.entrance-note{margin-top:35px;display:block}.entrance-note>p{max-width:300px}
+@keyframes canopy-breath{from{transform:translateY(-1px)}to{transform:translateY(2px)}}
+@media(max-width:767px){.floral-masthead{height:106px}.floral-canopy{background-size:auto 145px}.entrance-note{margin-top:23px}.entrance-note>p{max-width:250px}}
+@media(prefers-reduced-motion:reduce){.floral-canopy{animation:none}}
+@media(max-width:767px){.work-item figcaption{display:block}.work-item figcaption span:first-child{display:block;margin-bottom:3px;padding-top:0}.work-item figcaption span:last-child{display:block;overflow-wrap:break-word}}
