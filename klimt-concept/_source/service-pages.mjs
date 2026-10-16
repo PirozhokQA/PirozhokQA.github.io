@@ -1,0 +1,44 @@
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {salon,gallery,texts} from '../../klimt-beauty-house/_source/content.mjs';
+const dimensions=JSON.parse(await readFile(new URL('../../klimt-beauty-house/_source/asset-metadata.json',import.meta.url),'utf8'));
+const existing=idx=>({src:`/klimt-beauty-house/assets/${gallery[idx].file}.webp`,small:`/klimt-beauty-house/assets/${gallery[idx].file}-small.webp`,...dimensions[gallery[idx].file],source:gallery[idx].source,captions:Object.fromEntries(['hy','ru','en'].map(lang=>[lang,texts[lang].captions[idx]]))});
+const makeupSource='https://www.instagram.com/klimt_beauty_house/p/Dehu6fWET_3/';
+const makeup=[1,2].map((number,index)=>({src:`/klimt-concept/assets/client-makeup-narine-0${number}.webp`,small:`/klimt-concept/assets/client-makeup-narine-0${number}-small.webp`,width:1200,height:1600,source:makeupSource,captions:{ru:index?'Макияж · Нарине, крупный план':'Макияж · Нарине',en:index?'Makeup by Narine, close-up':'Makeup by Narine',hy:index?'Դիմահարդարում՝ Նարինե․ խոշոր պլան':'Դիմահարդարում՝ Նարինե'}}));
+// The official post credits makeup to Narine and hairstyle to Seda. No client identity is published.
+export const serviceDefinitions=[
+ {slug:'hair',photos:[existing(0),existing(2),existing(3),existing(5),existing(6)],source:salon.instagram},
+ {slug:'nails',photos:[existing(1),existing(4),existing(7)],source:'https://www.instagram.com/stories/highlights/17967528731442514/'},
+ {slug:'makeup',photos:makeup,source:'https://www.instagram.com/stories/highlights/17976322508347253/'},
+ {slug:'brows-lashes',photos:[],source:'https://www.instagram.com/stories/highlights/17949492652663521/'},
+ {slug:'cosmetology',photos:[],source:salon.instagram},
+ {slug:'elos',photos:[],source:salon.instagram}
+];
+export const servicePageTexts={
+ ru:{back:'Все услуги',label:'Услуга Klimt Beauty House',view:'Смотреть работы',details:'Подробнее об услуге',portfolio:'Работы',portfolioTitle:'Работы по этой услуге',hint:'Нажмите на фотографию, чтобы рассмотреть её крупнее.',origin:'Оригинал в Instagram',more:'Больше работ в Instagram',moreTitle:'Узнать больше об услуге',support:'Посмотрите материалы салона в Instagram или напишите администратору, чтобы обсудить услугу и запросить примеры работ.',request:'Запросить примеры работ',switch:'Другие услуги',close:'Закрыть фотографию',previous:'Предыдущая фотография',next:'Следующая фотография',open:'Увеличить фотографию'},
+ en:{back:'All services',label:'A Klimt Beauty House service',view:'View work',details:'Explore this service',portfolio:'Work',portfolioTitle:'Work in this category',hint:'Select a photograph to see it in more detail.',origin:'Original on Instagram',more:'More work on Instagram',moreTitle:'Explore this service',support:'Explore the salon’s Instagram or contact our administrator to discuss the service and request examples of work.',request:'Ask for examples',switch:'Other services',close:'Close photograph',previous:'Previous photograph',next:'Next photograph',open:'Enlarge photograph'},
+ hy:{back:'Բոլոր ծառայությունները',label:'Klimt Beauty House-ի ծառայություն',view:'Դիտել աշխատանքները',details:'Ավելին ծառայության մասին',portfolio:'Աշխատանքներ',portfolioTitle:'Այս ծառայության աշխատանքները',hint:'Սեղմեք լուսանկարի վրա՝ մանրամասները դիտելու համար։',origin:'Բնօրինակը՝ Instagram-ում',more:'Այլ աշխատանքներ՝ Instagram-ում',moreTitle:'Ավելին ծառայության մասին',support:'Դիտեք սրահի Instagram-ը կամ գրեք ադմինիստրատորին՝ ծառայությունը քննարկելու և աշխատանքների օրինակներ խնդրելու համար։',request:'Խնդրել աշխատանքների օրինակներ',switch:'Այլ ծառայություններ',close:'Փակել լուսանկարը',previous:'Նախորդ լուսանկարը',next:'Հաջորդ լուսանկարը',open:'Մեծացնել լուսանկարը'}
+};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arrow='<span aria-hidden="true">↗</span>';
+const ext=(url,label,cls='')=>`<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ${arrow}</a>`;
+export async function buildServicePages({template,lang,base,origin,out,t,e}){
+ const s=servicePageTexts[lang];
+ for(let index=0;index<serviceDefinitions.length;index++){
+  const service=serviceDefinitions[index],title=t.services[index][0],description=t.services[index][1],route=`${base}/${lang}/services/${service.slug}/`;
+  const photos=service.photos.map((photo,i)=>`<figure class="portfolio-item"><a class="portfolio-open" href="${photo.src}" data-source="${esc(photo.source)}" aria-label="${esc(s.open+': '+photo.captions[lang])}"><img src="${photo.src}" ${photo.width===1200?`srcset="${photo.small} 480w, ${photo.src} 1200w" sizes="(max-width:700px) calc(100vw - 40px), (max-width:1000px) 45vw, 30vw"`:""} width="${photo.width}" height="${photo.height}" alt="${esc(photo.captions[lang])}" loading="lazy" decoding="async"><span class="portfolio-zoom" aria-hidden="true">+</span></a><figcaption><span class="portfolio-number">${String(i+1).padStart(2,'0')}</span><span>${photo.captions[lang]}</span></figcaption>${ext(photo.source,s.origin,'portfolio-source')}</figure>`).join('');
+  const galleryBlock=photos?`<section class="service-portfolio" id="work"><div class="portfolio-heading"><h2>${s.portfolioTitle}</h2><p>${s.hint}</p></div><div class="service-gallery ${service.photos.length===2?"gallery-pair":""}">${photos}</div><div class="portfolio-more">${ext(service.source,s.more,'text-link')}</div></section>`:`<section class="service-support" id="work"><p class="eyebrow">Instagram · @klimt_beauty_house</p><h2>${s.moreTitle}</h2><p>${s.support}</p><div>${ext(service.source,t.instagram,'text-link')}${ext(salon.instagram,s.request,'solid-button')}</div></section>`;
+  const modal=photos?`<dialog class="portfolio-lightbox" aria-label="${esc(title+' — '+s.portfolio)}"><button class="portfolio-close" aria-label="${s.close}">×</button><div class="portfolio-dialog-layout"><button class="portfolio-prev" aria-label="${s.previous}">←</button><figure><img width="1200" height="1600" alt=""><figcaption aria-live="polite"></figcaption>${ext(salon.instagram,s.origin,'portfolio-dialog-source')}</figure><button class="portfolio-next" aria-label="${s.next}">→</button></div></dialog>`:'';
+  const main=`<main id="main"><div class="service-page shell" id="home"><div class="service-toolbar"><a class="service-back" href="${base}/${lang}/#services"><span aria-hidden="true">←</span> ${s.back}</a><button class="motion-control" aria-pressed="true"><span aria-hidden="true">Ⅱ</span> <span>${e.pause}</span></button></div><a class="service-wordmark" href="${base}/${lang}/#home" aria-label="Klimt Beauty House">Klimt<span>BEAUTY HOUSE</span></a><section class="service-intro" id="services"><p class="eyebrow">${s.label}</p><h1>${title}</h1><p class="service-description">${description}</p><p class="service-price">${t.priceNote}</p><a class="solid-button" href="#contact">${t.book} ${arrow}</a></section>${galleryBlock}<nav class="service-switcher" aria-label="${s.switch}"><p class="eyebrow">${s.switch}</p><div>${serviceDefinitions.map((other,j)=>`<a href="${base}/${lang}/services/${other.slug}/" ${index===j?'aria-current="page"':''}>${t.services[j][0]}</a>`).join('')}</div></nav></div></main>${modal}`;
+  const start=template.indexOf('<main id="main">'),end=template.indexOf('</main>')+'</main>'.length;
+  let html=template.slice(0,start)+main+template.slice(end);
+  html=html.replaceAll(esc(t.title),esc(title+' — Klimt Beauty House')).replaceAll(esc(t.description),esc(description+' '+t.address));
+  for(const l of ['hy','ru','en']){
+   html=html.replaceAll(`${origin}${base}/${l}/`,`${origin}${base}/${l}/services/${service.slug}/`);
+   html=html.replaceAll(`href="${base}/${l}/"`,`href="${base}/${l}/services/${service.slug}/"`);
+  }
+  html=html.replaceAll(`href="#work">${e.about}`,`href="#work">${s.portfolio}`).replaceAll('href="#services"',`href="${base}/${lang}/#services"`);
+  html=html.replace('href="#home" aria-label="Klimt Beauty House"',`href="${base}/${lang}/#home" aria-label="Klimt Beauty House"`);
+  if(service.photos.length){html=html.replace(`${origin}${base}/assets/campaign-botanical-v1.webp`,`${origin}${service.photos[0].src}`).replace(esc(e.photoFloral),esc(service.photos[0].captions[lang]));}
+  await mkdir(new URL(`${lang}/services/${service.slug}/`,out),{recursive:true});await writeFile(new URL(`${lang}/services/${service.slug}/index.html`,out),html);
+ }
+}
