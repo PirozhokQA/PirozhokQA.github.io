@@ -23,6 +23,9 @@ for (const file of manifest.files) {
     throw new Error('Invalid report file entry');
   }
   names.add(file.path);
+  if (file.inlineBase64 && (!file.path.endsWith('index.html') || file.size > 10000)) {
+    throw new Error('Only the original report HTML may be embedded');
+  }
 }
 let next = 0;
 let completed = 0;
@@ -48,9 +51,9 @@ async function worker() {
     let buffer;
     for (let attempt = 0; attempt < 4; attempt++) {
       try {
-        const response = await fetchPublicFile(file.path);
-        if (!response.ok) throw new Error(`HTTP ${response.status} for ${file.path}`);
-        buffer = Buffer.from(await response.arrayBuffer());
+        const response = file.inlineBase64 ? null : await fetchPublicFile(file.path);
+        if (response && !response.ok) throw new Error(`HTTP ${response.status} for ${file.path}`);
+        buffer = file.inlineBase64 ? Buffer.from(file.inlineBase64, 'base64') : Buffer.from(await response.arrayBuffer());
         if (buffer.length !== file.size || createHash('sha256').update(buffer).digest('hex') !== file.sha256) {
           throw new Error(`Checksum mismatch for ${file.path}`);
         }
