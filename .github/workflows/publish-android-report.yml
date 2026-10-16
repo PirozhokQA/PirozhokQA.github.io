@@ -1,0 +1,28 @@
+name: Publish Android report snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-android-report.yml
+      - .github/scripts/mirror-android-report.mjs
+      - .github/scripts/android-report-145870.manifest.gz.b64
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-report-145870
+  cancel-in-progress: false
+
+jobs:
+  prepare-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: true
+      - name: Copy the public report and verify every file
+        run: node .github/scripts/mirror-android-report.mjs
