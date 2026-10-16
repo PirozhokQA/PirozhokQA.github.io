@@ -1,0 +1,70 @@
+{
+  "requests": [
+    {
+      "pid": "21427",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792080441571
+    },
+    {
+      "pid": "21427",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792080442604
+    },
+    {
+      "pid": "21427",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/152",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792080444637
+    }
+  ],
+  "responses": [
+    {
+      "pid": "21427",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792080441582
+    },
+    {
+      "pid": "21427",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792080442607
+    },
+    {
+      "pid": "21427",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/152",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792080444640
+    }
+  ]
+}

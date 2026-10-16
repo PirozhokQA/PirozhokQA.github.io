@@ -1,0 +1,35 @@
+{
+  "stage": "preparation",
+  "readOnly": true,
+  "products": [
+    {
+      "code": 416355,
+      "name": "Сушилка для белья Ника СБТ18, 18м, белый",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    },
+    {
+      "code": 171749,
+      "name": "Двухкамерный холодильник Atlant ХМ 4208-000",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/atlant/4208_000/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    },
+    {
+      "code": 521719,
+      "name": "Двухкамерный холодильник Haier C4F640CWU1 белый",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/haier/c4f640cwu1_belyy/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    }
+  ],
+  "checkedAt": "2026-10-15T11:23:20.765Z",
+  "purpose": "Проверить доступность данных до временной очистки избранного"
+}

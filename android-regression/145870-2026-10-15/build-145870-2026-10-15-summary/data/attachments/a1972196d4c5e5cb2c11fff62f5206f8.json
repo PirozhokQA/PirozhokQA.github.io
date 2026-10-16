@@ -1,0 +1,461 @@
+{
+  "requests": [
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792060723119
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792060725942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792060727277
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792060727942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792060727942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792060727942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792060727942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792060727942
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792060729122
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792060733743
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792060734829
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792060734829
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792060734868
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792060734868
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792060734868
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792060734868
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792060739238
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792060739240
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "Холодильник",
+        "regionId": "1"
+      },
+      "time": 1792060744415
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792060746497
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792060746497
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792060746501
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792060746501
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792060762218
+    },
+    {
+      "pid": "30139",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": "vendor=82;"
+      },
+      "time": 1792060769432
+    }
+  ],
+  "responses": [
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792060725942
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792060727006
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792060727866
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792060729014
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792060730462
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792060730478
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792060730501
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792060730510
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792060731526
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792060735875
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792060735879
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792060735879
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792060735879
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792060737104
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792060737104
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792060737104
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792060739245
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792060740298
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "Холодильник",
+        "regionId": "1"
+      },
+      "time": 1792060744415
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792060746504
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792060747545
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792060750651
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792060758001
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792060762226
+    },
+    {
+      "pid": "30139",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": "vendor=82;"
+      },
+      "time": 1792060770830
+    }
+  ],
+  "errors": []
+}

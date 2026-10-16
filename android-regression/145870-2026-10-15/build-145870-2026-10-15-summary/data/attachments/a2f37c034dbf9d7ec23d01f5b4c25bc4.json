@@ -1,0 +1,63 @@
+{
+  "id": 1280811,
+  "code": 830516,
+  "name": "Моющий пылесос Jetex Home для химчистки и влажной уборки",
+  "image_urls": {
+    "big": [
+      "https://holod.ru/pics/clean/big/11/1280811_3043641.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043635.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043636.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043637.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043638.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043639.jpg",
+      "https://holod.ru/pics/clean/big/11/1280811_3043640.jpg"
+    ],
+    "medium": [
+      "https://holod.ru/pics/clean/medium/11/1280811_3043641.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043635.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043636.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043637.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043638.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043639.jpg",
+      "https://holod.ru/pics/clean/medium/11/1280811_3043640.jpg"
+    ]
+  },
+  "price": {
+    "actual_price": 13250,
+    "old_price": 26500,
+    "discount": 50
+  },
+  "availability": {
+    "is_available": true,
+    "count": 512,
+    "subscription_url": "",
+    "is_subscribed": false
+  },
+  "description": {
+    "details": []
+  },
+  "manuals_count": 0,
+  "actions": [
+    {
+      "id": 13025,
+      "title": "2 (два) подарка",
+      "description": "Списывайте 2000 бонусов как скидку 15% на все + доп.скидка 3100 руб. от 35000 руб. по промокоду ТЫКВА",
+      "background_color": "#F8F5EC",
+      "text_color": "#FFA740"
+    },
+    {
+      "id": null,
+      "title": "Новинка",
+      "description": "",
+      "background_color": "#c5fcf3",
+      "text_color": "#087c67"
+    }
+  ],
+  "loyalty": {
+    "holod_points": 132
+  },
+  "seller": {
+    "active": "1",
+    "name": " КИСИКС"
+  }
+}

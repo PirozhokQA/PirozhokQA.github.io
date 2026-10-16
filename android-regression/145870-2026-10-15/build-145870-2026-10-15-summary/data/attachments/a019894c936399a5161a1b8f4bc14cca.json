@@ -1,0 +1,491 @@
+{
+  "requests": [
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059435186
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059438002
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059438029
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059439038
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059439038
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059439038
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059439038
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059440068
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059440069
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059440069
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059446341
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792059450108
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059451543
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792059451795
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792059453300
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059454331
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059454335
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059455366
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059455366
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059455367
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059455367
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059457395
+    },
+    {
+      "pid": "10617",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059457404
+    }
+  ],
+  "responses": [
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059435861
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059438008
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059439036
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059439038
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059440069
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059441157
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059441179
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059443222
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059444239
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059445335
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059446339
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059446341
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059447364
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059447366
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059447367
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792059451415
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059451741
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792059452258
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792059453300
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059454331
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059455360
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059456367
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059456374
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059457393
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059457398
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059457404
+    },
+    {
+      "pid": "10617",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059458420
+    }
+  ],
+  "errors": []
+}

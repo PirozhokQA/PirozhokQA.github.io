@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "guest",
+    "result": "passed",
+    "startedAt": 1792063261333,
+    "endedAt": 1792063310386
+  },
+  {
+    "variant": "account",
+    "result": "passed",
+    "startedAt": 1792063310389,
+    "endedAt": 1792063369827
+  }
+]

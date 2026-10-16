@@ -1,0 +1,74 @@
+{
+  "requests": [
+    {
+      "pid": "11524",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-info/landing/12939",
+      "params": {},
+      "time": 1792069869477
+    },
+    {
+      "pid": "11524",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792069870486
+    },
+    {
+      "pid": "11524",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "rating",
+        "ef": ""
+      },
+      "time": 1792069883744
+    }
+  ],
+  "responses": [
+    {
+      "pid": "11524",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-info/landing/12939",
+      "params": {},
+      "time": 1792069869478
+    },
+    {
+      "pid": "11524",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792069870486
+    },
+    {
+      "pid": "11524",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "rating",
+        "ef": ""
+      },
+      "time": 1792069883744
+    }
+  ]
+}

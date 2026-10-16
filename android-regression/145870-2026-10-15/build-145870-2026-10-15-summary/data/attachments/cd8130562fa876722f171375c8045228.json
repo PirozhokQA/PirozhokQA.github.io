@@ -1,0 +1,8 @@
+{
+  "fixture": "favorites-account",
+  "reused": true,
+  "preparationOwner": "MAA-T1043-favorites",
+  "caseStartedAt": 1792062942491,
+  "traceMark": 687,
+  "independentFunctionalChecks": true
+}

@@ -1,0 +1,540 @@
+{
+  "requests": [
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066461006
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792066464170
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066465756
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066466131
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792066466132
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792066466132
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792066466132
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792066466132
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066474069
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792066477205
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792066477209
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "830516",
+        "regionId": "1"
+      },
+      "time": 1792066482336
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792066483351
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "830516",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792066483357
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792066483362
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792066483366
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1280811",
+      "params": {},
+      "time": 1792066487469
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792066488489
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1280811/delivery",
+      "params": {},
+      "time": 1792066493617
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1280811/attrs",
+      "params": {},
+      "time": 1792066493617
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1280811/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792066493617
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/SimilarProd/",
+      "params": {
+        "productId": "1280811"
+      },
+      "time": 1792066495649
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/SimilarProdUpperCat/",
+      "params": {
+        "productId": "1280811"
+      },
+      "time": 1792066495649
+    },
+    {
+      "pid": "14902",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/seller/SellerProducts/5/",
+      "params": {
+        "page": "1",
+        "ef": "",
+        "search": "",
+        "sort": "hru"
+      },
+      "time": 1792066496685
+    }
+  ],
+  "responses": [
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066461641
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792066465370
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066466101
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066467507
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792066467669
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792066467669
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792066467695
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792066470858
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066472999
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792066474074
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792066474075
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792066474075
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792066474104
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792066474104
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792066475117
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066475117
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792066477209
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792066478257
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792066483396
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "830516",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792066484412
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792066484412
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "830516",
+        "regionId": "1"
+      },
+      "time": 1792066488477
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1280811",
+      "params": {},
+      "time": 1792066488481
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792066488489
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792066490547
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1280811/attrs",
+      "params": {},
+      "time": 1792066493617
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1280811/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792066494642
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1280811/delivery",
+      "params": {},
+      "time": 1792066494642
+    },
+    {
+      "pid": "14902",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/SimilarProdUpperCat/",
+      "params": {
+        "productId": "1280811"
+      },
+      "time": 1792066496685
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,32 @@
+{
+  "requests": [
+    {
+      "pid": "28174",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "price_desc",
+        "ef": ""
+      },
+      "time": 1792060626324
+    }
+  ],
+  "responses": [
+    {
+      "pid": "28174",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "price_desc",
+        "ef": ""
+      },
+      "time": 1792060626513
+    }
+  ]
+}

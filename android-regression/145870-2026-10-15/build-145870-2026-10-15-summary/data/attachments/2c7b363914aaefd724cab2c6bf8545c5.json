@@ -1,0 +1,163 @@
+[
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v2/feature-flags",
+    "params": {},
+    "time": 1792064600747
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/session/create",
+    "params": {},
+    "time": 1792064603854
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/session/get",
+    "params": {},
+    "time": 1792064608180
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v2/feature-flags",
+    "params": {},
+    "time": 1792064608533
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/settings/view",
+    "params": {},
+    "time": 1792064608547
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v5/schemas/main",
+    "params": {},
+    "time": 1792064608547
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/main/header/",
+    "params": {},
+    "time": 1792064608547
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/main/bottom_nav_bar_banner/",
+    "params": {},
+    "time": 1792064608561
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/session/get",
+    "params": {},
+    "time": 1792064609288
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/main/feature-flags-whitelist",
+    "params": {},
+    "time": 1792064610491
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/favorites/getFavorites/",
+    "params": {
+      "contract": "3"
+    },
+    "time": 1792064610491
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v3/navmenu",
+    "params": {},
+    "time": 1792064614679
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/promo/banners",
+    "params": {
+      "alias": "collection_3"
+    },
+    "time": 1792064614679
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v3/navmenu-carrusel",
+    "params": {},
+    "time": 1792064614679
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/promo/banners",
+    "params": {
+      "alias": "collection_2"
+    },
+    "time": 1792064615695
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/catalog/custom-categories",
+    "params": {},
+    "time": 1792064615704
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/geo/cities",
+    "params": {},
+    "time": 1792064618544
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v2/catalog/suggest",
+    "params": {
+      "search": "",
+      "regionId": "1"
+    },
+    "time": 1792064628963
+  },
+  {
+    "pid": "23439",
+    "kind": "request",
+    "method": "GET",
+    "path": "/api/v1/content/compilations/custom/12939",
+    "params": {},
+    "time": 1792064628994
+  }
+]

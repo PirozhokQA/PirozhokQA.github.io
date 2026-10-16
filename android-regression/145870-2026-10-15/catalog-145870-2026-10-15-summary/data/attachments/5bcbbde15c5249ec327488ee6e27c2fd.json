@@ -1,0 +1,1606 @@
+{
+  "kind": "snapshot",
+  "label": "Каталог, поиск и листинги · сборка 145870",
+  "mode": "Сводка нескольких запусков одной APK",
+  "complete": true,
+  "startedAt": "2026-10-15T10:13:53.237Z",
+  "endedAt": "2026-10-15T16:15:00.847Z",
+  "durationMs": null,
+  "selectedCases": [
+    "MAA-T971",
+    "MAA-T972",
+    "MAA-T974",
+    "MAA-T977",
+    "MAA-T978",
+    "MAA-T985",
+    "MAA-T986",
+    "MAA-T987",
+    "MAA-T988",
+    "MAA-T989",
+    "MAA-T990",
+    "MAA-T991",
+    "MAA-T992",
+    "MAA-T993",
+    "MAA-T497",
+    "MAA-T498",
+    "MAA-T499",
+    "MAA-T500",
+    "MAA-T998",
+    "MAA-T538",
+    "MAA-T1000",
+    "MAA-T536",
+    "MAA-T539",
+    "MAA-T1004",
+    "MAA-T1005",
+    "MAA-T1006",
+    "MAA-T1007",
+    "MAA-T1009",
+    "MAA-T1011",
+    "MAA-T1016",
+    "MAA-T1017",
+    "MAA-T1018",
+    "MAA-T1022",
+    "MAA-T1023",
+    "MAA-T1024"
+  ],
+  "sourceRuns": [
+    "2026-10-15T10-13-53-237Z-cases",
+    "2026-10-15T12-02-57-049Z-cases",
+    "2026-10-15T12-23-21-548Z-cases",
+    "2026-10-15T12-40-15-693Z-cases",
+    "2026-10-15T13-05-35-921Z-cases",
+    "2026-10-15T16-06-09-969Z-cases",
+    "2026-10-15T16-11-34-060Z-cases",
+    "2026-10-15T16-12-40-239Z-cases",
+    "2026-10-15T16-14-25-293Z-cases"
+  ],
+  "environment": {
+    "node": "v24.19.0 / v20.11.1 (точная среда — в исходном запуске)",
+    "apk": "[локальный профиль]\\Downloads\\Telegram Desktop\\app-dev-release.apk",
+    "device": "emulator-5554 / sdk_gphone64_x86_64 / Android 16",
+    "appium": "2.15.0",
+    "appVersionBeforeRun": "versionCode=145870 minSdk=26 targetSdk=36 · versionName=9.16.0",
+    "appVersion": "9.16.0 / versionCode 145870"
+  },
+  "results": [
+    {
+      "key": "MAA-T971",
+      "title": "MAA-T971: Витринный товар · бейдж и окно",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 73912.9167,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 73912.9167\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T971",
+      "jiraCopies": [
+        "MAA-T971"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T971-catalog-additional-controls.json",
+          "url": "artifacts/MAA-T971-catalog-additional-controls.json"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-network.json",
+          "url": "artifacts/MAA-T971-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-normal-listing.png",
+          "url": "artifacts/MAA-T971-catalog-additional-normal-listing.png"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-normal-listing.xml",
+          "url": "artifacts/MAA-T971-catalog-additional-normal-listing.xml"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-normal-pdp.png",
+          "url": "artifacts/MAA-T971-catalog-additional-normal-pdp.png"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-normal-pdp.xml",
+          "url": "artifacts/MAA-T971-catalog-additional-normal-pdp.xml"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-product-390328.json",
+          "url": "artifacts/MAA-T971-catalog-additional-product-390328.json"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-showcase-listing.png",
+          "url": "artifacts/MAA-T971-catalog-additional-showcase-listing.png"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-showcase-listing.xml",
+          "url": "artifacts/MAA-T971-catalog-additional-showcase-listing.xml"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-showcase-window.png",
+          "url": "artifacts/MAA-T971-catalog-additional-showcase-window.png"
+        },
+        {
+          "file": "MAA-T971-catalog-additional-showcase-window.xml",
+          "url": "artifacts/MAA-T971-catalog-additional-showcase-window.xml"
+        },
+        {
+          "file": "MAA-T971-catalog-additional.png",
+          "url": "artifacts/MAA-T971-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T971-catalog-additional.xml",
+          "url": "artifacts/MAA-T971-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-06-09-969Z-cases",
+      "sourceRun": "2026-10-15T16-06-09-969Z-cases"
+    },
+    {
+      "key": "MAA-T972",
+      "title": "MAA-T972: Услуги · главная, тарифы и чат",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 24482.9191,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 24482.9191\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T972",
+      "jiraCopies": [
+        "MAA-T972"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T972-catalog-additional-network.json",
+          "url": "artifacts/MAA-T972-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T972-catalog-additional.png",
+          "url": "artifacts/MAA-T972-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T972-catalog-additional.xml",
+          "url": "artifacts/MAA-T972-catalog-additional.xml"
+        },
+        {
+          "file": "MAA-T972-tariff-2.png",
+          "url": "artifacts/MAA-T972-tariff-2.png"
+        },
+        {
+          "file": "MAA-T972-tariff-2.xml",
+          "url": "artifacts/MAA-T972-tariff-2.xml"
+        },
+        {
+          "file": "MAA-T972-tariff-3.png",
+          "url": "artifacts/MAA-T972-tariff-3.png"
+        },
+        {
+          "file": "MAA-T972-tariff-3.xml",
+          "url": "artifacts/MAA-T972-tariff-3.xml"
+        },
+        {
+          "file": "MAA-T972-tariff-5.png",
+          "url": "artifacts/MAA-T972-tariff-5.png"
+        },
+        {
+          "file": "MAA-T972-tariff-5.xml",
+          "url": "artifacts/MAA-T972-tariff-5.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T974",
+      "title": "MAA-T974: Пустой поиск · рекомендации и ленты",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 26366.9483,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 26366.9483\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T974",
+      "jiraCopies": [
+        "MAA-T974"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T974-catalog-additional-network.json",
+          "url": "artifacts/MAA-T974-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T974-catalog-additional.png",
+          "url": "artifacts/MAA-T974-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T974-catalog-additional.xml",
+          "url": "artifacts/MAA-T974-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-23-21-548Z-cases",
+      "sourceRun": "2026-10-15T12-23-21-548Z-cases"
+    },
+    {
+      "key": "MAA-T977",
+      "title": "MAA-T977: Комбинация фильтров · параметры запроса",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 33719.6243,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 33719.6243\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T977",
+      "jiraCopies": [
+        "MAA-T977"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T977-catalog-additional-filter-network.json",
+          "url": "artifacts/MAA-T977-catalog-additional-filter-network.json"
+        },
+        {
+          "file": "MAA-T977-catalog-additional-network.json",
+          "url": "artifacts/MAA-T977-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T977-catalog-additional.png",
+          "url": "artifacts/MAA-T977-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T977-catalog-additional.xml",
+          "url": "artifacts/MAA-T977-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T978",
+      "title": "MAA-T978: Цена · отдельный пересчёт минимума и максимума",
+      "skipReason": null,
+      "result": "failed",
+      "durationMs": 46990.928,
+      "error": "'Нет отдельного запроса пересчёта с границами 50000 / undefined; [{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/categories\",\"params\":{},\"time\":1792080526215},{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/categories\",\"params\":{\"categoryId\":\"144\"},\"time\":1792080528263},{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/listing/152\",\"params\":{\"view\":\"0\",\"limit\":\"20\",\"page\":\"1\",\"ef\":\"\",\"sort\":\"popular\"},\"time\":1792080529288}]'",
+      "diagnostics": "---\n  duration_ms: 46990.928\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\catalog-additional.test.mjs:96:22'\n  failureType: 'testCodeFailure'\n  error: 'Нет отдельного запроса пересчёта с границами 50000 / undefined; [{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/categories\",\"params\":{},\"time\":1792080526215},{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/categories\",\"params\":{\"categoryId\":\"144\"},\"time\":1792080528263},{\"pid\":\"23109\",\"kind\":\"request\",\"method\":\"GET\",\"path\":\"/api/v1/catalog/listing/152\",\"params\":{\"view\":\"0\",\"limit\":\"20\",\"page\":\"1\",\"ef\":\"\",\"sort\":\"popular\"},\"time\":1792080529288}]'\n  code: 'ERR_ASSERTION'\n  name: 'AssertionError'\n  operator: 'fail'\n  stack: |-\n    filterRequests (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-additional.test.mjs:37:320)\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-additional.test.mjs:142:472)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T978",
+      "jiraCopies": [
+        "MAA-T978"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T978-catalog-additional-network.json",
+          "url": "artifacts/MAA-T978-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T978-catalog-additional-price-network.json",
+          "url": "artifacts/MAA-T978-catalog-additional-price-network.json"
+        },
+        {
+          "file": "MAA-T978-catalog-additional-priceFrom-50000-entered.png",
+          "url": "artifacts/MAA-T978-catalog-additional-priceFrom-50000-entered.png"
+        },
+        {
+          "file": "MAA-T978-catalog-additional-priceFrom-50000-entered.xml",
+          "url": "artifacts/MAA-T978-catalog-additional-priceFrom-50000-entered.xml"
+        },
+        {
+          "file": "MAA-T978-catalog-additional.png",
+          "url": "artifacts/MAA-T978-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T978-catalog-additional.xml",
+          "url": "artifacts/MAA-T978-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-06-09-969Z-cases",
+      "sourceRun": "2026-10-15T16-06-09-969Z-cases"
+    },
+    {
+      "key": "MAA-T985",
+      "title": "MAA-T985: Фильтры · применение и число товаров",
+      "skipReason": null,
+      "result": "failed",
+      "durationMs": 38808.6895,
+      "error": "'Запрос с выбранным диапазоном'",
+      "diagnostics": "---\n  duration_ms: 38808.6895\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\catalog-additional.test.mjs:96:22'\n  failureType: 'testCodeFailure'\n  error: 'Запрос с выбранным диапазоном'\n  code: 'ERR_ASSERTION'\n  name: 'AssertionError'\n  expected: true\n  actual: 0\n  operator: '=='\n  stack: |-\n    TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-additional.test.mjs:150:261)\n    process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Выбран производитель Ardo\n# Верхняя граница из priceUpTo: 310999",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T985",
+      "jiraCopies": [
+        "MAA-T985"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T985-catalog-additional-filter-network.json",
+          "url": "artifacts/MAA-T985-catalog-additional-filter-network.json"
+        },
+        {
+          "file": "MAA-T985-catalog-additional-network.json",
+          "url": "artifacts/MAA-T985-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T985-catalog-additional-priceFrom-50000-entered.png",
+          "url": "artifacts/MAA-T985-catalog-additional-priceFrom-50000-entered.png"
+        },
+        {
+          "file": "MAA-T985-catalog-additional-priceFrom-50000-entered.xml",
+          "url": "artifacts/MAA-T985-catalog-additional-priceFrom-50000-entered.xml"
+        },
+        {
+          "file": "MAA-T985-catalog-additional-priceUpTo-100000-entered.png",
+          "url": "artifacts/MAA-T985-catalog-additional-priceUpTo-100000-entered.png"
+        },
+        {
+          "file": "MAA-T985-catalog-additional-priceUpTo-100000-entered.xml",
+          "url": "artifacts/MAA-T985-catalog-additional-priceUpTo-100000-entered.xml"
+        },
+        {
+          "file": "MAA-T985-catalog-additional.png",
+          "url": "artifacts/MAA-T985-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T985-catalog-additional.xml",
+          "url": "artifacts/MAA-T985-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-06-09-969Z-cases",
+      "sourceRun": "2026-10-15T16-06-09-969Z-cases"
+    },
+    {
+      "key": "MAA-T986",
+      "title": "MAA-T986: Галерея мини-карточки · цикл и лимит 5",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 62046.2285,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 62046.2285\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T986",
+      "jiraCopies": [
+        "MAA-T986"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T986-catalog-additional-network.json",
+          "url": "artifacts/MAA-T986-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T986-catalog-additional.png",
+          "url": "artifacts/MAA-T986-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T986-catalog-additional.xml",
+          "url": "artifacts/MAA-T986-catalog-additional.xml"
+        },
+        {
+          "file": "MAA-T986-image-1.png",
+          "url": "artifacts/MAA-T986-image-1.png"
+        },
+        {
+          "file": "MAA-T986-image-1.xml",
+          "url": "artifacts/MAA-T986-image-1.xml"
+        },
+        {
+          "file": "MAA-T986-image-2.png",
+          "url": "artifacts/MAA-T986-image-2.png"
+        },
+        {
+          "file": "MAA-T986-image-2.xml",
+          "url": "artifacts/MAA-T986-image-2.xml"
+        },
+        {
+          "file": "MAA-T986-image-3.png",
+          "url": "artifacts/MAA-T986-image-3.png"
+        },
+        {
+          "file": "MAA-T986-image-3.xml",
+          "url": "artifacts/MAA-T986-image-3.xml"
+        },
+        {
+          "file": "MAA-T986-image-4.png",
+          "url": "artifacts/MAA-T986-image-4.png"
+        },
+        {
+          "file": "MAA-T986-image-4.xml",
+          "url": "artifacts/MAA-T986-image-4.xml"
+        },
+        {
+          "file": "MAA-T986-image-5.png",
+          "url": "artifacts/MAA-T986-image-5.png"
+        },
+        {
+          "file": "MAA-T986-image-5.xml",
+          "url": "artifacts/MAA-T986-image-5.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T987",
+      "title": "MAA-T987: Сортировка · Категория · Популярность",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 19843.6486,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 19843.6486\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Сортировка По размеру скидки: [34291,26391,21491,14592]",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T987",
+      "jiraCopies": [
+        "MAA-T987"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T987-catalog-network.json",
+          "url": "artifacts/MAA-T987-catalog-network.json"
+        },
+        {
+          "file": "MAA-T987-catalog.png",
+          "url": "artifacts/MAA-T987-catalog.png"
+        },
+        {
+          "file": "MAA-T987-catalog.xml",
+          "url": "artifacts/MAA-T987-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T988",
+      "title": "MAA-T988: Шапка листинга категории",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 21421.0515,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 21421.0515\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Производители: Ascoli, Ascoli",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T988",
+      "jiraCopies": [
+        "MAA-T988"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T988-catalog-network.json",
+          "url": "artifacts/MAA-T988-catalog-network.json"
+        },
+        {
+          "file": "MAA-T988-catalog.png",
+          "url": "artifacts/MAA-T988-catalog.png"
+        },
+        {
+          "file": "MAA-T988-catalog.xml",
+          "url": "artifacts/MAA-T988-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T989",
+      "title": "MAA-T989: Сортировка · Категория · Скидка в рублях",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 26023.7737,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 26023.7737\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Сортировка Сначала с лучшей оценкой: [0,0,0,0]",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T989",
+      "jiraCopies": [
+        "MAA-T989"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T989-catalog-network.json",
+          "url": "artifacts/MAA-T989-catalog-network.json"
+        },
+        {
+          "file": "MAA-T989-catalog-sort-network.json",
+          "url": "artifacts/MAA-T989-catalog-sort-network.json"
+        },
+        {
+          "file": "MAA-T989-catalog.png",
+          "url": "artifacts/MAA-T989-catalog.png"
+        },
+        {
+          "file": "MAA-T989-catalog.xml",
+          "url": "artifacts/MAA-T989-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T990",
+      "title": "MAA-T990: Сортировка · Категория · Лучшая оценка",
+      "skipReason": null,
+      "result": "blocked",
+      "durationMs": 44057.1372,
+      "error": "'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'",
+      "diagnostics": "---\n  duration_ms: 44057.1372\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\catalog-regression.test.mjs:12:3'\n  failureType: 'testCodeFailure'\n  error: 'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'\n  code: 'ERR_TEST_FAILURE'\n  stack: |-\n    requireData (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:9:9)\n    async sort (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:84:7)\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-regression.test.mjs:21:56)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)\n  ...\n# Первая подборка: Хиты с промокодом и бонусами\n# Сортировка Сначала с лучшей оценкой: [0,0,0,0]",
+      "variants": [],
+      "fixture": {
+        "stage": "test-data",
+        "status": "blocked",
+        "reason": "Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]"
+      },
+      "jiraCopy": "MAA-T990",
+      "jiraCopies": [
+        "MAA-T990"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T990-catalog-fixture.json",
+          "url": "artifacts/MAA-T990-catalog-fixture.json"
+        },
+        {
+          "file": "MAA-T990-catalog-network.json",
+          "url": "artifacts/MAA-T990-catalog-network.json"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-1.png",
+          "url": "artifacts/MAA-T990-catalog-rating-1.png"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-1.xml",
+          "url": "artifacts/MAA-T990-catalog-rating-1.xml"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-2.png",
+          "url": "artifacts/MAA-T990-catalog-rating-2.png"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-2.xml",
+          "url": "artifacts/MAA-T990-catalog-rating-2.xml"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-3.png",
+          "url": "artifacts/MAA-T990-catalog-rating-3.png"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-3.xml",
+          "url": "artifacts/MAA-T990-catalog-rating-3.xml"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-4.png",
+          "url": "artifacts/MAA-T990-catalog-rating-4.png"
+        },
+        {
+          "file": "MAA-T990-catalog-rating-4.xml",
+          "url": "artifacts/MAA-T990-catalog-rating-4.xml"
+        },
+        {
+          "file": "MAA-T990-catalog-sort-network.json",
+          "url": "artifacts/MAA-T990-catalog-sort-network.json"
+        },
+        {
+          "file": "MAA-T990-catalog.png",
+          "url": "artifacts/MAA-T990-catalog.png"
+        },
+        {
+          "file": "MAA-T990-catalog.xml",
+          "url": "artifacts/MAA-T990-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T991",
+      "title": "MAA-T991: Сортировка · Категория · Цена по возрастанию",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 26030.8588,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 26030.8588\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Сортировка Сначала дорогие: [310999,24[скрыто],243999,242999]",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T991",
+      "jiraCopies": [
+        "MAA-T991"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T991-catalog-network.json",
+          "url": "artifacts/MAA-T991-catalog-network.json"
+        },
+        {
+          "file": "MAA-T991-catalog-sort-network.json",
+          "url": "artifacts/MAA-T991-catalog-sort-network.json"
+        },
+        {
+          "file": "MAA-T991-catalog.png",
+          "url": "artifacts/MAA-T991-catalog.png"
+        },
+        {
+          "file": "MAA-T991-catalog.xml",
+          "url": "artifacts/MAA-T991-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T992",
+      "title": "MAA-T992: Сортировка · Категория · Цена по убыванию",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 25868.8424,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 25868.8424\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T992",
+      "jiraCopies": [
+        "MAA-T992"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T992-catalog-network.json",
+          "url": "artifacts/MAA-T992-catalog-network.json"
+        },
+        {
+          "file": "MAA-T992-catalog-sort-network.json",
+          "url": "artifacts/MAA-T992-catalog-sort-network.json"
+        },
+        {
+          "file": "MAA-T992-catalog.png",
+          "url": "artifacts/MAA-T992-catalog.png"
+        },
+        {
+          "file": "MAA-T992-catalog.xml",
+          "url": "artifacts/MAA-T992-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T993",
+      "title": "MAA-T993: Сортировка · Поиск · Популярность",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 24019.7438,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 24019.7438\n  ...\n# Первая подборка: Хиты с промокодом и бонусами",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T993",
+      "jiraCopies": [
+        "MAA-T993"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T993-catalog-network.json",
+          "url": "artifacts/MAA-T993-catalog-network.json"
+        },
+        {
+          "file": "MAA-T993-catalog.png",
+          "url": "artifacts/MAA-T993-catalog.png"
+        },
+        {
+          "file": "MAA-T993-catalog.xml",
+          "url": "artifacts/MAA-T993-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-23-21-548Z-cases",
+      "sourceRun": "2026-10-15T12-23-21-548Z-cases"
+    },
+    {
+      "key": "MAA-T497",
+      "title": "MAA-T497: Проверка сортировки по размеру скидки на экране поисковой выдачи",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 44690.0375,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 44690.0375\n  ...\n# Подготовка search-sorting: переиспользована из MAA-T497-expanded\n# Сортировка Сначала с лучшей оценкой: [0,0,0,0]\n# Ограничение данных: одинаковые рейтинги 0; проверены параметр запроса и порядок видимых товаров",
+      "variants": [],
+      "fixture": {
+        "fixture": "search-sorting",
+        "reused": false,
+        "preparationOwner": "MAA-T497-expanded",
+        "caseStartedAt": 1792060559656,
+        "traceMark": 0,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T919",
+      "jiraCopies": [
+        "MAA-T919",
+        "MAA-T994"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T497-expanded-fixture.json",
+          "url": "artifacts/MAA-T497-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T497-expanded-network.json",
+          "url": "artifacts/MAA-T497-expanded-network.json"
+        },
+        {
+          "file": "MAA-T497-expanded-sort-network.json",
+          "url": "artifacts/MAA-T497-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T497-expanded.png",
+          "url": "artifacts/MAA-T497-expanded.png"
+        },
+        {
+          "file": "MAA-T497-expanded.xml",
+          "url": "artifacts/MAA-T497-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T498",
+      "title": "MAA-T498: Проверка сортировки по наилучшей оценке на экране поисковой выдачи",
+      "skipReason": null,
+      "result": "blocked",
+      "durationMs": 64038.9203,
+      "error": "'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'",
+      "diagnostics": "---\n  duration_ms: 64038.9203\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\expanded-regression.test.mjs:25:3'\n  failureType: 'testCodeFailure'\n  error: 'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'\n  code: 'ERR_TEST_FAILURE'\n  stack: |-\n    requireData (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:9:9)\n    async sort (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:84:7)\n    async file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/expanded-regression.test.mjs:421:5\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/expanded-regression.test.mjs:32:7)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)\n  ...",
+      "variants": [],
+      "fixture": {
+        "stage": "test-data",
+        "status": "blocked",
+        "reason": "Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]",
+        "fixture": "search-sorting",
+        "reused": false,
+        "preparationOwner": "MAA-T498-expanded",
+        "caseStartedAt": 1792069997597,
+        "traceMark": 0,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T950",
+      "jiraCopies": [
+        "MAA-T950",
+        "MAA-T995"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T498-expanded-fixture.json",
+          "url": "artifacts/MAA-T498-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T498-expanded-network.json",
+          "url": "artifacts/MAA-T498-expanded-network.json"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-1.png",
+          "url": "artifacts/MAA-T498-expanded-rating-1.png"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-1.xml",
+          "url": "artifacts/MAA-T498-expanded-rating-1.xml"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-2.png",
+          "url": "artifacts/MAA-T498-expanded-rating-2.png"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-2.xml",
+          "url": "artifacts/MAA-T498-expanded-rating-2.xml"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-3.png",
+          "url": "artifacts/MAA-T498-expanded-rating-3.png"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-3.xml",
+          "url": "artifacts/MAA-T498-expanded-rating-3.xml"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-4.png",
+          "url": "artifacts/MAA-T498-expanded-rating-4.png"
+        },
+        {
+          "file": "MAA-T498-expanded-rating-4.xml",
+          "url": "artifacts/MAA-T498-expanded-rating-4.xml"
+        },
+        {
+          "file": "MAA-T498-expanded-sort-network.json",
+          "url": "artifacts/MAA-T498-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T498-expanded.png",
+          "url": "artifacts/MAA-T498-expanded.png"
+        },
+        {
+          "file": "MAA-T498-expanded.xml",
+          "url": "artifacts/MAA-T498-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T499",
+      "title": "MAA-T499: Проверка сортировки по возрастанию цены на экране поисковой выдачи",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 7702.748,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 7702.748\n  ...\n# Подготовка search-sorting: переиспользована из MAA-T497-expanded\n# Сортировка Сначала дорогие: [723999,524999,477999,445999,445999,399317]",
+      "variants": [],
+      "fixture": {
+        "fixture": "search-sorting",
+        "reused": true,
+        "preparationOwner": "MAA-T497-expanded",
+        "caseStartedAt": 1792060616892,
+        "traceMark": 90,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T920",
+      "jiraCopies": [
+        "MAA-T920",
+        "MAA-T996"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T499-expanded-fixture.json",
+          "url": "artifacts/MAA-T499-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T499-expanded-network.json",
+          "url": "artifacts/MAA-T499-expanded-network.json"
+        },
+        {
+          "file": "MAA-T499-expanded-sort-network.json",
+          "url": "artifacts/MAA-T499-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T499-expanded.png",
+          "url": "artifacts/MAA-T499-expanded.png"
+        },
+        {
+          "file": "MAA-T499-expanded.xml",
+          "url": "artifacts/MAA-T499-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T500",
+      "title": "MAA-T500: Проверка сортировки по убыванию цены на экране поисковой выдачи",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 7129.4101,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 7129.4101\n  ...\n# Первая подборка: Хиты с промокодом и бонусами\n# Подготовка collection-sorting: выполнена заново\n# Сортировка Сначала недорогие: [68,76,85,99,99,119]",
+      "variants": [],
+      "fixture": {
+        "fixture": "search-sorting",
+        "reused": true,
+        "preparationOwner": "MAA-T497-expanded",
+        "caseStartedAt": 1792060624637,
+        "traceMark": 92,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T921",
+      "jiraCopies": [
+        "MAA-T921",
+        "MAA-T997"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T500-expanded-fixture.json",
+          "url": "artifacts/MAA-T500-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T500-expanded-network.json",
+          "url": "artifacts/MAA-T500-expanded-network.json"
+        },
+        {
+          "file": "MAA-T500-expanded-sort-network.json",
+          "url": "artifacts/MAA-T500-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T500-expanded.png",
+          "url": "artifacts/MAA-T500-expanded.png"
+        },
+        {
+          "file": "MAA-T500-expanded.xml",
+          "url": "artifacts/MAA-T500-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T998",
+      "title": "MAA-T998: Сортировка · Подборка · Популярность",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 23980.0375,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 23980.0375\n  ...\n# Первая подборка: Хиты с промокодом и бонусами\n# Сортировка Сначала с лучшей оценкой: [0,0,0,0]\n# Ограничение данных: одинаковые рейтинги 0; проверены параметр запроса и порядок видимых товаров",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T998",
+      "jiraCopies": [
+        "MAA-T998"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T998-catalog-network.json",
+          "url": "artifacts/MAA-T998-catalog-network.json"
+        },
+        {
+          "file": "MAA-T998-catalog.png",
+          "url": "artifacts/MAA-T998-catalog.png"
+        },
+        {
+          "file": "MAA-T998-catalog.xml",
+          "url": "artifacts/MAA-T998-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-23-21-548Z-cases",
+      "sourceRun": "2026-10-15T12-23-21-548Z-cases"
+    },
+    {
+      "key": "MAA-T538",
+      "title": "MAA-T538: Проверка сортировки по размеру скидки на экране товарной подборки",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 13618.0499,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 13618.0499\n  ...\n# Подготовка collection-sorting: переиспользована из MAA-T536-expanded\n# Сортировка Сначала дорогие: [754999,723999,344999,310999]",
+      "variants": [],
+      "fixture": {
+        "fixture": "collection-sorting",
+        "reused": true,
+        "preparationOwner": "MAA-T536-expanded",
+        "caseStartedAt": 1792060677860,
+        "traceMark": 38,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T922",
+      "jiraCopies": [
+        "MAA-T922",
+        "MAA-T999"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T538-expanded-fixture.json",
+          "url": "artifacts/MAA-T538-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T538-expanded-network.json",
+          "url": "artifacts/MAA-T538-expanded-network.json"
+        },
+        {
+          "file": "MAA-T538-expanded-sort-network.json",
+          "url": "artifacts/MAA-T538-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T538-expanded.png",
+          "url": "artifacts/MAA-T538-expanded.png"
+        },
+        {
+          "file": "MAA-T538-expanded.xml",
+          "url": "artifacts/MAA-T538-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T1000",
+      "title": "MAA-T1000: Сортировка · Подборка · Лучшая оценка",
+      "skipReason": null,
+      "result": "blocked",
+      "durationMs": 45267.9087,
+      "error": "'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'",
+      "diagnostics": "---\n  duration_ms: 45267.9087\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\catalog-regression.test.mjs:12:3'\n  failureType: 'testCodeFailure'\n  error: 'Недостаточно тестовых данных: Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]'\n  code: 'ERR_TEST_FAILURE'\n  stack: |-\n    requireData (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:9:9)\n    async sort (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/listing-sorting.mjs:84:7)\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-regression.test.mjs:21:56)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": {
+        "stage": "test-data",
+        "status": "blocked",
+        "reason": "Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]"
+      },
+      "jiraCopy": "MAA-T1000",
+      "jiraCopies": [
+        "MAA-T1000"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1000-catalog-fixture.json",
+          "url": "artifacts/MAA-T1000-catalog-fixture.json"
+        },
+        {
+          "file": "MAA-T1000-catalog-network.json",
+          "url": "artifacts/MAA-T1000-catalog-network.json"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-1.png",
+          "url": "artifacts/MAA-T1000-catalog-rating-1.png"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-1.xml",
+          "url": "artifacts/MAA-T1000-catalog-rating-1.xml"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-2.png",
+          "url": "artifacts/MAA-T1000-catalog-rating-2.png"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-2.xml",
+          "url": "artifacts/MAA-T1000-catalog-rating-2.xml"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-3.png",
+          "url": "artifacts/MAA-T1000-catalog-rating-3.png"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-3.xml",
+          "url": "artifacts/MAA-T1000-catalog-rating-3.xml"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-4.png",
+          "url": "artifacts/MAA-T1000-catalog-rating-4.png"
+        },
+        {
+          "file": "MAA-T1000-catalog-rating-4.xml",
+          "url": "artifacts/MAA-T1000-catalog-rating-4.xml"
+        },
+        {
+          "file": "MAA-T1000-catalog-sort-network.json",
+          "url": "artifacts/MAA-T1000-catalog-sort-network.json"
+        },
+        {
+          "file": "MAA-T1000-catalog.png",
+          "url": "artifacts/MAA-T1000-catalog.png"
+        },
+        {
+          "file": "MAA-T1000-catalog.xml",
+          "url": "artifacts/MAA-T1000-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T536",
+      "title": "MAA-T536: Проверка сортировки по возрастанию цены на экране товарной подборки",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 46173.8704,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 46173.8704\n  ...",
+      "variants": [],
+      "fixture": {
+        "fixture": "collection-sorting",
+        "reused": false,
+        "preparationOwner": "MAA-T536-expanded",
+        "caseStartedAt": 1792060670711,
+        "traceMark": 0,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T949",
+      "jiraCopies": [
+        "MAA-T949",
+        "MAA-T1001"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T536-expanded-fixture.json",
+          "url": "artifacts/MAA-T536-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T536-expanded-network.json",
+          "url": "artifacts/MAA-T536-expanded-network.json"
+        },
+        {
+          "file": "MAA-T536-expanded-sort-network.json",
+          "url": "artifacts/MAA-T536-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T536-expanded.png",
+          "url": "artifacts/MAA-T536-expanded.png"
+        },
+        {
+          "file": "MAA-T536-expanded.xml",
+          "url": "artifacts/MAA-T536-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T539",
+      "title": "MAA-T539: Проверка сортировки по убыванию цены на экране товарной подборки",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 13841.521,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 13841.521\n  ...",
+      "variants": [],
+      "fixture": {
+        "fixture": "collection-sorting",
+        "reused": true,
+        "preparationOwner": "MAA-T536-expanded",
+        "caseStartedAt": 1792060691550,
+        "traceMark": 40,
+        "independentFunctionalChecks": true
+      },
+      "jiraCopy": "MAA-T952",
+      "jiraCopies": [
+        "MAA-T952",
+        "MAA-T1002"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T539-expanded-fixture.json",
+          "url": "artifacts/MAA-T539-expanded-fixture.json"
+        },
+        {
+          "file": "MAA-T539-expanded-network.json",
+          "url": "artifacts/MAA-T539-expanded-network.json"
+        },
+        {
+          "file": "MAA-T539-expanded-sort-network.json",
+          "url": "artifacts/MAA-T539-expanded-sort-network.json"
+        },
+        {
+          "file": "MAA-T539-expanded.png",
+          "url": "artifacts/MAA-T539-expanded.png"
+        },
+        {
+          "file": "MAA-T539-expanded.xml",
+          "url": "artifacts/MAA-T539-expanded.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T1004",
+      "title": "MAA-T1004: Переключение плитки и списка",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 21211.2596,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 21211.2596\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники\n# Производители: Samsung, Ascoli",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1004",
+      "jiraCopies": [
+        "MAA-T1004"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1004-catalog-network.json",
+          "url": "artifacts/MAA-T1004-catalog-network.json"
+        },
+        {
+          "file": "MAA-T1004-catalog.png",
+          "url": "artifacts/MAA-T1004-catalog.png"
+        },
+        {
+          "file": "MAA-T1004-catalog.xml",
+          "url": "artifacts/MAA-T1004-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T1005",
+      "title": "MAA-T1005: Фильтр производителя · включение через поиск",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 31744.2894,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 31744.2894\n  type: 'test'\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1005",
+      "jiraCopies": [
+        "MAA-T1005"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1005-catalog-network.json",
+          "url": "artifacts/MAA-T1005-catalog-network.json"
+        },
+        {
+          "file": "MAA-T1005-catalog.png",
+          "url": "artifacts/MAA-T1005-catalog.png"
+        },
+        {
+          "file": "MAA-T1005-catalog.xml",
+          "url": "artifacts/MAA-T1005-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1006",
+      "title": "MAA-T1006: Быстрый фильтр · производитель",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 31378.3704,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 31378.3704\n  type: 'test'\n  ...\n# Подготовка search-sorting: выполнена заново\n# Сортировка Сначала с лучшей оценкой: [0,0,0,0]",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1006",
+      "jiraCopies": [
+        "MAA-T1006"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1006-catalog-network.json",
+          "url": "artifacts/MAA-T1006-catalog-network.json"
+        },
+        {
+          "file": "MAA-T1006-catalog.png",
+          "url": "artifacts/MAA-T1006-catalog.png"
+        },
+        {
+          "file": "MAA-T1006-catalog.xml",
+          "url": "artifacts/MAA-T1006-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1007",
+      "title": "MAA-T1007: Быстрый фильтр · отсутствующие товары",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 35054.6668,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 35054.6668\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1007",
+      "jiraCopies": [
+        "MAA-T1007"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1007-catalog-additional-availability.json",
+          "url": "artifacts/MAA-T1007-catalog-additional-availability.json"
+        },
+        {
+          "file": "MAA-T1007-catalog-additional-network.json",
+          "url": "artifacts/MAA-T1007-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T1007-catalog-additional.png",
+          "url": "artifacts/MAA-T1007-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T1007-catalog-additional.xml",
+          "url": "artifacts/MAA-T1007-catalog-additional.xml"
+        },
+        {
+          "file": "MAA-T1007-unavailable.png",
+          "url": "artifacts/MAA-T1007-unavailable.png"
+        },
+        {
+          "file": "MAA-T1007-unavailable.xml",
+          "url": "artifacts/MAA-T1007-unavailable.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-11-34-060Z-cases",
+      "sourceRun": "2026-10-15T16-11-34-060Z-cases"
+    },
+    {
+      "key": "MAA-T1009",
+      "title": "MAA-T1009: Фильтры · ноль результатов",
+      "skipReason": null,
+      "result": "failed",
+      "durationMs": 47096.714,
+      "error": "'Не дождались сохранена цена priceFrom = 310999. Текущий экран: resource-id=\"android:id/content\" | resource-id=\"filtersScreen\" | resource-id=\"filtersScreenCloseButton\" | content-desc=\"Фильтры\" | content-desc=\"Сбросить\" | content-desc=\"Цена (руб.)\" | content-desc=\"от \" | text=\"22299.0\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"310999.0\" | resource-id=\"priceUpTo\" | content-desc=\"Товары в рассрочку\" | resource-id=\"filterNameTitle\" | content-desc=\"Производитель\" | content-desc=\"Ardo\" | content-desc=\"Ascoli\" | content-desc=\"Atlant\" | content-desc=\"Beko\" | content-desc=\"Benoit\" | content-desc=\"Bosch\" | content-desc=\"Высота, см\" | content-desc=\"от \" | text=\"184\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"201\" | resource-id=\"priceUpTo\" | content-desc=\"Ширина, см\" | content-desc=\"от \" | text=\"59\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"60\" | resource-id=\"priceUpTo\" | content-desc=\"Глубина, см\" | content-desc=\"от \" | text=\"60\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"67\" | resource-id=\"priceUpTo\" | content-desc=\"Показать 4 товара\"'",
+      "diagnostics": "---\n  duration_ms: 47096.714\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\catalog-additional.test.mjs:96:22'\n  failureType: 'testCodeFailure'\n  error: 'Не дождались сохранена цена priceFrom = 310999. Текущий экран: resource-id=\"android:id/content\" | resource-id=\"filtersScreen\" | resource-id=\"filtersScreenCloseButton\" | content-desc=\"Фильтры\" | content-desc=\"Сбросить\" | content-desc=\"Цена (руб.)\" | content-desc=\"от \" | text=\"22299.0\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"310999.0\" | resource-id=\"priceUpTo\" | content-desc=\"Товары в рассрочку\" | resource-id=\"filterNameTitle\" | content-desc=\"Производитель\" | content-desc=\"Ardo\" | content-desc=\"Ascoli\" | content-desc=\"Atlant\" | content-desc=\"Beko\" | content-desc=\"Benoit\" | content-desc=\"Bosch\" | content-desc=\"Высота, см\" | content-desc=\"от \" | text=\"184\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"201\" | resource-id=\"priceUpTo\" | content-desc=\"Ширина, см\" | content-desc=\"от \" | text=\"59\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"60\" | resource-id=\"priceUpTo\" | content-desc=\"Глубина, см\" | content-desc=\"от \" | text=\"60\" | resource-id=\"priceFrom\" | content-desc=\"до \" | text=\"67\" | resource-id=\"priceUpTo\" | content-desc=\"Показать 4 товара\"'\n  code: 'ERR_TEST_FAILURE'\n  stack: |-\n    AppiumSession.waitForSource (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/appium-session.mjs:205:11)\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/catalog-additional.test.mjs:146:138)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)\n  ...\n# Ветка каталога: Холодильники и морозильники → Двухкамерные холодильники",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1009",
+      "jiraCopies": [
+        "MAA-T1009"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1009-catalog-additional-network.json",
+          "url": "artifacts/MAA-T1009-catalog-additional-network.json"
+        },
+        {
+          "file": "MAA-T1009-catalog-additional-priceFrom-310999-entered.png",
+          "url": "artifacts/MAA-T1009-catalog-additional-priceFrom-310999-entered.png"
+        },
+        {
+          "file": "MAA-T1009-catalog-additional-priceFrom-310999-entered.xml",
+          "url": "artifacts/MAA-T1009-catalog-additional-priceFrom-310999-entered.xml"
+        },
+        {
+          "file": "MAA-T1009-catalog-additional.png",
+          "url": "artifacts/MAA-T1009-catalog-additional.png"
+        },
+        {
+          "file": "MAA-T1009-catalog-additional.xml",
+          "url": "artifacts/MAA-T1009-catalog-additional.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-06-09-969Z-cases",
+      "sourceRun": "2026-10-15T16-06-09-969Z-cases"
+    },
+    {
+      "key": "MAA-T1011",
+      "title": "MAA-T1011: Поиск · очистка и отмена",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 24857.0641,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 24857.0641\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1011",
+      "jiraCopies": [
+        "MAA-T1011"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1011-catalog-network.json",
+          "url": "artifacts/MAA-T1011-catalog-network.json"
+        },
+        {
+          "file": "MAA-T1011-catalog.png",
+          "url": "artifacts/MAA-T1011-catalog.png"
+        },
+        {
+          "file": "MAA-T1011-catalog.xml",
+          "url": "artifacts/MAA-T1011-catalog.xml"
+        }
+      ],
+      "runId": "2026-10-15T10-13-53-237Z-cases",
+      "sourceRun": "2026-10-15T10-13-53-237Z-cases"
+    },
+    {
+      "key": "MAA-T1016",
+      "title": "MAA-T1016: Поиск · английский запрос модели",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 22160.2754,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 22160.2754\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1016",
+      "jiraCopies": [
+        "MAA-T1016"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1016-search-network.json",
+          "url": "artifacts/MAA-T1016-search-network.json"
+        },
+        {
+          "file": "MAA-T1016-search.png",
+          "url": "artifacts/MAA-T1016-search.png"
+        },
+        {
+          "file": "MAA-T1016-search.xml",
+          "url": "artifacts/MAA-T1016-search.xml"
+        }
+      ],
+      "runId": "2026-10-15T12-40-15-693Z-cases",
+      "sourceRun": "2026-10-15T12-40-15-693Z-cases"
+    },
+    {
+      "key": "MAA-T1017",
+      "title": "MAA-T1017: Поиск · несуществующий товар",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 32104.6586,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 32104.6586\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1017",
+      "jiraCopies": [
+        "MAA-T1017"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1017-search-empty-recommendations.png",
+          "url": "artifacts/MAA-T1017-search-empty-recommendations.png"
+        },
+        {
+          "file": "MAA-T1017-search-empty-recommendations.xml",
+          "url": "artifacts/MAA-T1017-search-empty-recommendations.xml"
+        },
+        {
+          "file": "MAA-T1017-search-network.json",
+          "url": "artifacts/MAA-T1017-search-network.json"
+        },
+        {
+          "file": "MAA-T1017-search.png",
+          "url": "artifacts/MAA-T1017-search.png"
+        },
+        {
+          "file": "MAA-T1017-search.xml",
+          "url": "artifacts/MAA-T1017-search.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1018",
+      "title": "MAA-T1018: Поиск · строка специальных символов",
+      "skipReason": null,
+      "result": "failed",
+      "durationMs": 64281.4749,
+      "error": "'Не дождались пустые подсказки по @#$%. Текущий экран: resource-id=\"android:id/content\" | text=\"@#$%\" | resource-id=\"openSearchSuggestionScreenButton\" | resource-id=\"clearInputField\" | content-desc=\"Отмена\" | content-desc=\"Забрать бонусы дня\" | resource-id=\"productCardImage\" | content-desc=\"2000 бонусов + промокод на 3100\" | resource-id=\"promotionsNavMenuButton\" | resource-id=\"openCategory\" | content-desc=\"Лидеры выбора Вкладка 1 из 6\" | content-desc=\"Цифровая техника Вкладка 2 из 6\" | content-desc=\"Техника для дома Вкладка 3 из 6\" | content-desc=\"Холодильники\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Стиральные машины\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Духовые шкафы\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Посудомоечные машины\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Телевизоры\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Заменим, если сломается\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"холодильник\" | resource-id=\"taps\" | content-desc=\"стиральная\" | resource-id=\"taps\" | content-desc=\"телевизор\" | resource-id=\"taps\" | content-desc=\"аэрогриль\" | resource-id=\"taps\" | content-desc=\"холодильник\" | resource-id=\"oftenSearched\" | content-desc=\"стиральная машинка\" | resource-id=\"oftenSearched\" | content-desc=\"телевизор\" | resource-id=\"oftenSearched\" | content-desc=\"аэрогриль\" | resource-id=\"oftenSearched\" | content-desc=\"газовая плита с духовкой газовой\" | resource-id=\"oftenSearched\" | content-desc=\"Бренды\" | resource-id=\"searchSuggestTitle\" | content-desc=\"Indesit\" | resource-id=\"BrandsName\" | content-desc=\"Haier\" | resource-id=\"BrandsName\" | content-desc=\"Zugel\" | resource-id=\"BrandsName\" | content-desc=\"Подходящие товары\" | resource-id=\"searchSuggestTitle\" | content-desc=\"50% 12 700 ₽ 25 400 ₽ Моющий пылесос Jetex SMART для химч'",
+      "diagnostics": "---\n  duration_ms: 64281.4749\n  type: 'test'\n  location: 'C:\\\\Users\\\\lexap\\\\Documents\\\\Codex\\\\android-appium-tests\\\\test\\\\search-regression.test.mjs:85:3'\n  failureType: 'testCodeFailure'\n  error: 'Не дождались пустые подсказки по @#$%. Текущий экран: resource-id=\"android:id/content\" | text=\"@#$%\" | resource-id=\"openSearchSuggestionScreenButton\" | resource-id=\"clearInputField\" | content-desc=\"Отмена\" | content-desc=\"Забрать бонусы дня\" | resource-id=\"productCardImage\" | content-desc=\"2000 бонусов + промокод на 3100\" | resource-id=\"promotionsNavMenuButton\" | resource-id=\"openCategory\" | content-desc=\"Лидеры выбора Вкладка 1 из 6\" | content-desc=\"Цифровая техника Вкладка 2 из 6\" | content-desc=\"Техника для дома Вкладка 3 из 6\" | content-desc=\"Холодильники\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Стиральные машины\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Духовые шкафы\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Посудомоечные машины\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Телевизоры\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"Заменим, если сломается\" | resource-id=\"categoryCardOpenCategory\" | content-desc=\"холодильник\" | resource-id=\"taps\" | content-desc=\"стиральная\" | resource-id=\"taps\" | content-desc=\"телевизор\" | resource-id=\"taps\" | content-desc=\"аэрогриль\" | resource-id=\"taps\" | content-desc=\"холодильник\" | resource-id=\"oftenSearched\" | content-desc=\"стиральная машинка\" | resource-id=\"oftenSearched\" | content-desc=\"телевизор\" | resource-id=\"oftenSearched\" | content-desc=\"аэрогриль\" | resource-id=\"oftenSearched\" | content-desc=\"газовая плита с духовкой газовой\" | resource-id=\"oftenSearched\" | content-desc=\"Бренды\" | resource-id=\"searchSuggestTitle\" | content-desc=\"Indesit\" | resource-id=\"BrandsName\" | content-desc=\"Haier\" | resource-id=\"BrandsName\" | content-desc=\"Zugel\" | resource-id=\"BrandsName\" | content-desc=\"Подходящие товары\" | resource-id=\"searchSuggestTitle\" | content-desc=\"50% 12 700 ₽ 25 400 ₽ Моющий пылесос Jetex SMART для химч'\n  code: 'ERR_TEST_FAILURE'\n  stack: |-\n    AppiumSession.waitForSource (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/appium-session.mjs:205:11)\n    async TestContext.<anonymous> (file:///C:/Users/lexap/Documents/Codex/android-appium-tests/test/search-regression.test.mjs:93:15)\n    async Test.run (node:internal/test_runner/test:1389:7)\n    async Test.processPendingSubtests (node:internal/test_runner/test:960:7)\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1018",
+      "jiraCopies": [
+        "MAA-T1018"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1018-search-network.json",
+          "url": "artifacts/MAA-T1018-search-network.json"
+        },
+        {
+          "file": "MAA-T1018-search.png",
+          "url": "artifacts/MAA-T1018-search.png"
+        },
+        {
+          "file": "MAA-T1018-search.xml",
+          "url": "artifacts/MAA-T1018-search.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1022",
+      "title": "MAA-T1022: Поиск · выбор подходящего запроса после ввода",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 22666.3845,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 22666.3845\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1022",
+      "jiraCopies": [
+        "MAA-T1022"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1022-search-network.json",
+          "url": "artifacts/MAA-T1022-search-network.json"
+        },
+        {
+          "file": "MAA-T1022-search.png",
+          "url": "artifacts/MAA-T1022-search.png"
+        },
+        {
+          "file": "MAA-T1022-search.xml",
+          "url": "artifacts/MAA-T1022-search.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1023",
+      "title": "MAA-T1023: Поиск · независимость от регистра",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 31453.248,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 31453.248\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1023",
+      "jiraCopies": [
+        "MAA-T1023"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1023-search-network.json",
+          "url": "artifacts/MAA-T1023-search-network.json"
+        },
+        {
+          "file": "MAA-T1023-search.png",
+          "url": "artifacts/MAA-T1023-search.png"
+        },
+        {
+          "file": "MAA-T1023-search.xml",
+          "url": "artifacts/MAA-T1023-search.xml"
+        },
+        {
+          "file": "MAA-T1023-variant-1.png",
+          "url": "artifacts/MAA-T1023-variant-1.png"
+        },
+        {
+          "file": "MAA-T1023-variant-1.xml",
+          "url": "artifacts/MAA-T1023-variant-1.xml"
+        },
+        {
+          "file": "MAA-T1023-variant-2.png",
+          "url": "artifacts/MAA-T1023-variant-2.png"
+        },
+        {
+          "file": "MAA-T1023-variant-2.xml",
+          "url": "artifacts/MAA-T1023-variant-2.xml"
+        },
+        {
+          "file": "MAA-T1023-variant-3.png",
+          "url": "artifacts/MAA-T1023-variant-3.png"
+        },
+        {
+          "file": "MAA-T1023-variant-3.xml",
+          "url": "artifacts/MAA-T1023-variant-3.xml"
+        }
+      ],
+      "runId": "2026-10-15T13-05-35-921Z-cases",
+      "sourceRun": "2026-10-15T13-05-35-921Z-cases"
+    },
+    {
+      "key": "MAA-T1024",
+      "title": "MAA-T1024: Поиск · новый запрос после пустой выдачи",
+      "skipReason": null,
+      "result": "passed",
+      "durationMs": 34931.583,
+      "error": "",
+      "diagnostics": "---\n  duration_ms: 34931.583\n  type: 'test'\n  ...",
+      "variants": [],
+      "fixture": null,
+      "jiraCopy": "MAA-T1024",
+      "jiraCopies": [
+        "MAA-T1024"
+      ],
+      "artifacts": [
+        {
+          "file": "MAA-T1024-empty.png",
+          "url": "artifacts/MAA-T1024-empty.png"
+        },
+        {
+          "file": "MAA-T1024-empty.xml",
+          "url": "artifacts/MAA-T1024-empty.xml"
+        },
+        {
+          "file": "MAA-T1024-search-network.json",
+          "url": "artifacts/MAA-T1024-search-network.json"
+        },
+        {
+          "file": "MAA-T1024-search.png",
+          "url": "artifacts/MAA-T1024-search.png"
+        },
+        {
+          "file": "MAA-T1024-search.xml",
+          "url": "artifacts/MAA-T1024-search.xml"
+        }
+      ],
+      "runId": "2026-10-15T16-14-25-293Z-cases",
+      "sourceRun": "2026-10-15T16-14-25-293Z-cases"
+    }
+  ],
+  "note": "Последний выполненный результат каждого выбранного сценария только из перечисленных запусков 15.10.2026 на app-dev-release.apk (145870). Это сводка частичного запуска, продолжения и повторов, а не новый непрерывный полный прогон. Старые сборки не включены. Причины падений и ограничения данных сохранены без замены на успешный результат.",
+  "stats": {
+    "passed": 28,
+    "failed": 4,
+    "skipped": 0,
+    "blocked": 3
+  }
+}

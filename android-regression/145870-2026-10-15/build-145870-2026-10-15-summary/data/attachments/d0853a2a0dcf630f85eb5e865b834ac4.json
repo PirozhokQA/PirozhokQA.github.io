@@ -1,0 +1,17 @@
+{
+  "stage": "preparation",
+  "readOnly": true,
+  "products": [
+    {
+      "code": 416355,
+      "name": "Сушилка для белья Ника СБТ18, 18м, белый",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    }
+  ],
+  "checkedAt": "2026-10-15T11:20:09.037Z",
+  "purpose": "Проверить доступность данных до временной очистки избранного"
+}

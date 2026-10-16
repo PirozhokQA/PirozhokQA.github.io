@@ -1,0 +1,9 @@
+{
+  "code": 521719,
+  "name": "Двухкамерный холодильник Haier C4F640CWU1 белый",
+  "identityOnly": true,
+  "identitySource": "UI: exact productCardProductCode",
+  "openingRoute": "observed-share-deeplink",
+  "url": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/haier/c4f640cwu1_belyy/?utm_source=share",
+  "urlSource": "Android Share UI after exact PDP SKU verification"
+}

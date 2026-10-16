@@ -1,0 +1,30 @@
+[
+  {
+    "variant": "Добавление A и B через мини-карточки",
+    "stage": "execution",
+    "startedAt": 1792059633360,
+    "result": "passed",
+    "endedAt": 1792059672040
+  },
+  {
+    "variant": "Открытие категории, цены и характеристики двух товаров",
+    "stage": "execution",
+    "startedAt": 1792059672835,
+    "result": "passed",
+    "endedAt": 1792059701488
+  },
+  {
+    "variant": "Цикл левой карусели и независимость правой колонки",
+    "stage": "execution",
+    "startedAt": 1792059702539,
+    "result": "passed",
+    "endedAt": 1792059761129
+  },
+  {
+    "variant": "Цикл правой карусели и независимость левой колонки",
+    "stage": "execution",
+    "startedAt": 1792059762399,
+    "result": "passed",
+    "endedAt": 1792059822191
+  }
+]

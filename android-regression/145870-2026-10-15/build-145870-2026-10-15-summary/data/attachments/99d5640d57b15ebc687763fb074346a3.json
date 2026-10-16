@@ -1,0 +1,26 @@
+{
+  "stage": "preparation",
+  "readOnly": true,
+  "products": [
+    {
+      "code": 416355,
+      "name": "Сушилка для белья Ника СБТ18, 18м, белый",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    },
+    {
+      "code": 287304,
+      "name": "стационарная приставка Sony PlayStation 4 1TB Black + Gran Turismo Sport, Horizon Zero Dawn CE и GOW, подписка PS+ на 3 месяца",
+      "identityOnly": true,
+      "identitySource": "UI: exact productCardProductCode",
+      "openingRoute": "observed-share-deeplink",
+      "url": "https://www.holodilnik.ru/komputernaya_tehnika/game_consoles/sony/cuh_2208b/?utm_source=share",
+      "urlSource": "Android Share UI after exact PDP SKU verification"
+    }
+  ],
+  "checkedAt": "2026-10-15T11:09:40.872Z",
+  "purpose": "Проверить доступность данных до временной очистки избранного"
+}

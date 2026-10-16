@@ -1,0 +1,61 @@
+{
+  "id": 1138949,
+  "code": 652459,
+  "name": "Двухкамерный холодильник Beko B1RCSK332W белый",
+  "image_urls": {
+    "big": [
+      "https://holod.ru/pics/clean/big/49/1138949_3.jpg",
+      "https://holod.ru/pics/infoicon/big/49/1138949_0.jpg",
+      "https://holod.ru/pics/watermark/big/49/1138949_0.jpg",
+      "https://holod.ru/pics/watermark/big/49/1138949_1.jpg",
+      "https://holod.ru/pics/clean/big/49/1138949_1.jpg",
+      "https://holod.ru/pics/clean/big/49/1138949_2.jpg"
+    ],
+    "medium": [
+      "https://holod.ru/pics/clean/medium/49/1138949_3.jpg",
+      "https://holod.ru/pics/infoicon/medium/49/1138949_0.jpg",
+      "https://holod.ru/pics/watermark/medium/49/1138949_0.jpg",
+      "https://holod.ru/pics/watermark/medium/49/1138949_1.jpg",
+      "https://holod.ru/pics/clean/medium/49/1138949_1.jpg",
+      "https://holod.ru/pics/clean/medium/49/1138949_2.jpg"
+    ]
+  },
+  "price": {
+    "actual_price": 47099,
+    "old_price": 0,
+    "discount": 0
+  },
+  "availability": {
+    "is_available": true,
+    "count": 518,
+    "subscription_url": "",
+    "is_subscribed": false
+  },
+  "description": {
+    "details": []
+  },
+  "manuals_count": 1,
+  "actions": [
+    {
+      "id": 13025,
+      "title": "2 (два) подарка",
+      "description": "Списывайте 2000 бонусов как скидку 15% на все + доп.скидка 3100 руб. от 35000 руб. по промокоду ТЫКВА",
+      "background_color": "#F8F5EC",
+      "text_color": "#FFA740"
+    },
+    {
+      "id": 12195,
+      "title": "х4 бонусов Много.ру",
+      "description": "В 4 раза больше бонусов Много.ру только при покупке в приложении",
+      "background_color": "#F9EEF7",
+      "text_color": "#851AC6"
+    }
+  ],
+  "loyalty": {
+    "holod_points": 470
+  },
+  "seller": {
+    "active": "0",
+    "name": "ООО «ХОЛОДИЛЬНИК.РУ»"
+  }
+}

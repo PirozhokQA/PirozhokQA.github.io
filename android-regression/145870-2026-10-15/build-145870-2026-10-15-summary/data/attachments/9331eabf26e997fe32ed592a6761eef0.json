@@ -1,0 +1,337 @@
+{
+  "requests": [
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059254856
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059258341
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059259666
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059260004
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059260009
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059260010
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059260010
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059260010
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059262046
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059262049
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059262051
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "/action/dve_vigodi_oct/"
+      },
+      "time": 1792059268199
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-info/landing/13025",
+      "params": {},
+      "time": 1792059270228
+    },
+    {
+      "pid": "7239",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/13025",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792059270232
+    }
+  ],
+  "responses": [
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059259122
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059259966
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059261040
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059262049
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059262049
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059262051
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059262054
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059263091
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059265152
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059265152
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059267185
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059268198
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059268198
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059268198
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059268198
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059268199
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "/action/dve_vigodi_oct/"
+      },
+      "time": 1792059269224
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-info/landing/13025",
+      "params": {},
+      "time": 1792059270228
+    },
+    {
+      "pid": "7239",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/13025",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792059270234
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,33 @@
+{
+  "requests": [
+    {
+      "pid": "29281",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "discount",
+        "ef": ""
+      },
+      "time": 1792060699948
+    }
+  ],
+  "responses": [
+    {
+      "pid": "29281",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/action-products/12939",
+      "params": {
+        "limit": "20",
+        "page": "1",
+        "sort": "discount",
+        "ef": ""
+      },
+      "time": 1792060699958
+    }
+  ],
+  "errors": []
+}

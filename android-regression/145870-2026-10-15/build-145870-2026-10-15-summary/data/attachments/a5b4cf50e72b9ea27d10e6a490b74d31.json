@@ -1,0 +1,271 @@
+{
+  "requests": [
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792063077086
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792063078933
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792063079527
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792063080091
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792063082557
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792063082557
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792063082557
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792063085146
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792063085478
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/atlant/4208_000/?utm_source=share"
+      },
+      "time": 1792063086040
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173",
+      "params": {},
+      "time": 1792063088053
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792063088543
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/delivery",
+      "params": {},
+      "time": 1792063090926
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/attrs",
+      "params": {},
+      "time": 1792063090926
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792063090926
+    }
+  ],
+  "responses": [
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792063078933
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792063079271
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792063079935
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792063080474
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792063082557
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792063082557
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792063083578
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792063086845
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/atlant/4208_000/?utm_source=share"
+      },
+      "time": 1792063087852
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792063087855
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173",
+      "params": {},
+      "time": 1792063088382
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792063089860
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/attrs",
+      "params": {},
+      "time": 1792063091940
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/delivery",
+      "params": {},
+      "time": 1792063091971
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792063091971
+    }
+  ],
+  "errors": []
+}

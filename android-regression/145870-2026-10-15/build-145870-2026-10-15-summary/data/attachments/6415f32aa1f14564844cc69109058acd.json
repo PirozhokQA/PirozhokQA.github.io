@@ -1,0 +1,713 @@
+{
+  "requests": [
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066507337
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792066509804
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066509813
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066510810
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792066510810
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792066510810
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792066510810
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066511847
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792066516050
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792066516050
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792066516050
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792066517073
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792066517074
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792066517074
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066517074
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792066519115
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792066521166
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792066521168
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "PlayStation 4 1TB",
+        "regionId": "1"
+      },
+      "time": 1792066526296
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792066527303
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "PlayStation 4 1TB",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792066527303
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792066527303
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792066528320
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792066533403
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792066533416
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792066535532
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792066535534
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792066535534
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792066540027
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066540827
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792066541058
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792066542483
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066543506
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792066543515
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792066544516
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792066544532
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792066544532
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066544532
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792066545533
+    },
+    {
+      "pid": "15895",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v2/subscribe/availability-product/586070/",
+      "params": {},
+      "time": 1792066547565
+    }
+  ],
+  "responses": [
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066507645
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792066509813
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066510810
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792066510814
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792066511847
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792066511876
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792066511876
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066516050
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792066517074
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792066517074
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792066518095
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792066518096
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792066519106
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792066519113
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066519115
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792066519115
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "",
+        "regionId": "1"
+      },
+      "time": 1792066521169
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12939",
+      "params": {},
+      "time": 1792066522197
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "PlayStation 4 1TB",
+        "regionId": "1"
+      },
+      "time": 1792066526296
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792066528320
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792066528326
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "PlayStation 4 1TB",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792066531373
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792066533403
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792066533416
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792066535534
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792066538610
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792066539642
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792066539642
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792066540675
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066540984
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792066541452
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792066542483
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792066543506
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792066544532
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792066544533
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792066545533
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792066545534
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792066546557
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792066546559
+    },
+    {
+      "pid": "15895",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v2/subscribe/availability-product/586070/",
+      "params": {},
+      "time": 1792066547565
+    }
+  ],
+  "errors": []
+}

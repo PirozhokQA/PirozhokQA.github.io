@@ -1,0 +1,7 @@
+{
+  "code": 260182,
+  "name": "Миксер KitchenAid 5KSM 125 EER",
+  "identityOnly": true,
+  "identitySource": "UI: exact productCardProductCode",
+  "openingRoute": "full-search-results"
+}

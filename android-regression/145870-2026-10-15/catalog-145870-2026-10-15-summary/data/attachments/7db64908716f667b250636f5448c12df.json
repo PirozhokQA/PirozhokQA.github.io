@@ -1,0 +1,11 @@
+{
+  "stage": "test-data",
+  "status": "blocked",
+  "reason": "Для проверки порядка нужны минимум четыре товара и различающиеся рейтинги; получено [0,0,0,0]",
+  "fixture": "search-sorting",
+  "reused": false,
+  "preparationOwner": "MAA-T498-expanded",
+  "caseStartedAt": 1792069997597,
+  "traceMark": 0,
+  "independentFunctionalChecks": true
+}

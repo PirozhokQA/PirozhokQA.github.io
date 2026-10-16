@@ -1,0 +1,11 @@
+{
+  "stage": "preparation",
+  "status": "blocked",
+  "reason": "Не удалось подготовить исходное избранное: Не дождались избранное или форма входа. Текущий экран: resource-id=\"android:id/content\" | content-desc=\"Похожие\" | resource-id=\"productCardImage\" | content-desc=\"Нет в наличии\" | content-desc=\"стационарная приставка Sony PlayStation 4 1TB Black + Gran Turismo Sport, Horizon Zero Dawn CE и GOW, подписка PS+ на 3 месяца\" | content-desc=\"109 999 ₽ Игровая приставка Sony PlayStation 5 Slim, Disc, Blue-Ray, 1Tb, White (CFI-2116A)\" | resource-id=\"productCard\" | content-desc=\"productCardImage\" | resource-id=\"productCardImage\" | resource-id=\"productCardLike\" | content-desc=\"2 (два) подарка\" | content-desc=\"productCardRating\" | resource-id=\"productCardRating\" | content-desc=\"cartOnProductCard В корзину\" | resource-id=\"cartOnProductCard\" | resource-id=\"catalogNavBarButton\" | content-desc=\"Каталог\" | resource-id=\"favoritesNavBarButton\" | content-desc=\"Избранное 1\" | resource-id=\"mainNavBarButton\" | content-desc=\"Поиск\" | resource-id=\"cartNavBarButton\" | content-desc=\"Корзина 10\" | resource-id=\"profileNavBarButton\" | content-desc=\"тест\"",
+  "fixture": "favorites-account",
+  "reused": true,
+  "preparationOwner": "MAA-T1043-favorites",
+  "caseStartedAt": 1792063075304,
+  "traceMark": 769,
+  "independentFunctionalChecks": true
+}

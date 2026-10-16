@@ -1,0 +1,1655 @@
+{
+  "requests": [
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062568243
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792062570546
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062571028
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062571697
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062574065
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062574068
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062574068
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062576709
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/komputernaya_tehnika/game_consoles/sony/cuh_2208b/?utm_source=share"
+      },
+      "time": 1792062577373
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792062578348
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062578871
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792062581245
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792062581245
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062581245
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/973525",
+      "params": {},
+      "time": 1792062598219
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062599241
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/973525/delivery",
+      "params": {},
+      "time": 1792062601602
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/973525/attrs",
+      "params": {},
+      "time": 1792062601606
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/973525/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062601606
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/973525/",
+      "params": {},
+      "time": 1792062608411
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062609313
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062609907
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062619084
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062620138
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062620180
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173",
+      "params": {},
+      "time": 1792062630302
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062631284
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/delivery",
+      "params": {},
+      "time": 1792062633611
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/attrs",
+      "params": {},
+      "time": 1792062633611
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062633611
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/438173/",
+      "params": {},
+      "time": 1792062641390
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062642395
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062642941
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062652116
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062654416
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062654461
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062663548
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062664623
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/804357/",
+      "params": {},
+      "time": 1792062674000
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062683027
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062683570
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PersonalProductFavourites/",
+      "params": {},
+      "time": 1792062684123
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062700222
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792062701884
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062702403
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062702960
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062705282
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062705282
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062705282
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/favorites/addFavoriteSync/",
+      "params": {},
+      "time": 1792062709969
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062712914
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062713763
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062718183
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792062723571
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062726730
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792062727870
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792062727870
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792062727884
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792062727884
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792062727885
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792062727897
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/komputernaya_tehnika/game_consoles/sony/cuh_2208b/?utm_source=share"
+      },
+      "time": 1792062728966
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062730036
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792062730039
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792062730039
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062731058
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792062736261
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792062736261
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062736261
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792062737295
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792062738320
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792062738320
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062738329
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792062740413
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792062742457
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792062742464
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062742464
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/favorites/addFavoriteSync/",
+      "params": {},
+      "time": 1792062743515
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062743516
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062744978
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062745682
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062745719
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062752333
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062753020
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062753080
+    },
+    {
+      "pid": "9005",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "search": "PlayStation",
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062763110
+    }
+  ],
+  "responses": [
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062569755
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792062570806
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062571493
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062571998
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062574079
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062574079
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062575091
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/komputernaya_tehnika/game_consoles/sony/cuh_2208b/?utm_source=share"
+      },
+      "time": 1792062578090
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792062578689
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062579175
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792062581245
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062581248
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792062581248
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062582262
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/973525",
+      "params": {},
+      "time": 1792062599061
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062599534
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/973525/delivery",
+      "params": {},
+      "time": 1792062601618
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/973525/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062602632
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/973525/attrs",
+      "params": {},
+      "time": 1792062602633
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/973525/",
+      "params": {},
+      "time": 1792062609190
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062609772
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062610379
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062620113
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062620746
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062621758
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173",
+      "params": {},
+      "time": 1792062631068
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062632559
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/delivery",
+      "params": {},
+      "time": 1792062634631
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/438173/attrs",
+      "params": {},
+      "time": 1792062634648
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/438173/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062634664
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/438173/",
+      "params": {},
+      "time": 1792062642296
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062642795
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062643443
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062654381
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062655074
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062656524
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062664436
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062664943
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062667016
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "DELETE",
+      "path": "/api/v1/favorites/removeFavorite/804357/",
+      "params": {},
+      "time": 1792062682907
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062683424
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062684002
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PersonalProductFavourites/",
+      "params": {},
+      "time": 1792062684674
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062701928
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/cottage_repair/dryers_for_linen/nika/sbt18_18m_belyy/?utm_source=share"
+      },
+      "time": 1792062702196
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357",
+      "params": {},
+      "time": 1792062702769
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062703235
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/delivery",
+      "params": {},
+      "time": 1792062705284
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/804357/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062705294
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/804357/attrs",
+      "params": {},
+      "time": 1792062706308
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/favorites/addFavoriteSync/",
+      "params": {},
+      "time": 1792062712889
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062713515
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062714238
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792062724394
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062726731
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792062728997
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/deeplink",
+      "params": {
+        "link": "https://www.holodilnik.ru/komputernaya_tehnika/game_consoles/sony/cuh_2208b/?utm_source=share"
+      },
+      "time": 1792062730036
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062730036
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792062730039
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792062731040
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792062731055
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792062732067
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792062732067
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792062737296
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062737296
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070",
+      "params": {},
+      "time": 1792062737296
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792062738329
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792062739363
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792062739363
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792062739363
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792062740414
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792062740414
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792062742470
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792062742476
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/attrs",
+      "params": {},
+      "time": 1792062742482
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/586070/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792062743500
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/586070/delivery",
+      "params": {},
+      "time": 1792062743500
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/favorites/addFavoriteSync/",
+      "params": {},
+      "time": 1792062743516
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062744535
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062745634
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062746166
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062747195
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792062752988
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062753579
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792062754011
+    },
+    {
+      "pid": "9005",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "search": "PlayStation",
+        "page": "1",
+        "limit": "20",
+        "sort": "new",
+        "ef": ""
+      },
+      "time": 1792062764956
+    }
+  ],
+  "errors": []
+}

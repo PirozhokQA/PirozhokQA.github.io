@@ -1,0 +1,48 @@
+{
+  "id": 586070,
+  "code": 287304,
+  "name": "стационарная приставка Sony PlayStation 4 1TB Black + Gran Turismo Sport, Horizon Zero Dawn CE и GOW, подписка PS+ на 3 месяца",
+  "image_urls": {
+    "big": [
+      "https://holod.ru/pics/clean/big/70/586070_0.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_1.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_2.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_3.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_4.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_5.jpg",
+      "https://holod.ru/pics/clean/big/70/586070_6.jpg"
+    ],
+    "medium": [
+      "https://holod.ru/pics/clean/medium/70/586070_0.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_1.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_2.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_3.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_4.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_5.jpg",
+      "https://holod.ru/pics/clean/medium/70/586070_6.jpg"
+    ]
+  },
+  "price": {
+    "actual_price": 55999,
+    "old_price": 0,
+    "discount": 0
+  },
+  "availability": {
+    "is_available": false,
+    "count": 0,
+    "subscription_url": "",
+    "is_subscribed": false
+  },
+  "description": {
+    "details": []
+  },
+  "manuals_count": 0,
+  "actions": [],
+  "loyalty": {
+    "holod_points": 559
+  },
+  "seller": {
+    "active": "0",
+    "name": "ООО «ХОЛОДИЛЬНИК.РУ»"
+  }
+}

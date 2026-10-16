@@ -1,0 +1,939 @@
+{
+  "requests": [
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059564149
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059565875
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059568830
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059568830
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059568830
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059568830
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059568833
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059568833
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059569854
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059569867
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059569868
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059574969
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059574971
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059574971
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059574971
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059574971
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792059581346
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059582576
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792059582855
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792059584353
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059585379
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059585384
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059586407
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059586407
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059586407
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059586407
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059588418
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792059590586
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059598360
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059600700
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059627858
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1181973",
+      "params": {},
+      "time": 1792059628876
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792059629890
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/delivery",
+      "params": {},
+      "time": 1792059631925
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/attrs",
+      "params": {},
+      "time": 1792059631925
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1181973/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792059631925
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059633980
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059636027
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059662734
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/431621",
+      "params": {},
+      "time": 1792059663730
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792059664744
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/delivery",
+      "params": {},
+      "time": 1792059666780
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/attrs",
+      "params": {},
+      "time": 1792059666783
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/431621/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792059666783
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059669858
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059670887
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059698594
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059699613
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059700640
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/attrs",
+      "params": {},
+      "time": 1792059701659
+    },
+    {
+      "pid": "13713",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/attrs",
+      "params": {},
+      "time": 1792059702682
+    }
+  ],
+  "responses": [
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059564714
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/create",
+      "params": {},
+      "time": 1792059567692
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059568830
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/feature-flags",
+      "params": {},
+      "time": 1792059568835
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059569867
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/settings/view",
+      "params": {},
+      "time": 1792059569867
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/header/",
+      "params": {},
+      "time": 1792059570882
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v5/schemas/main",
+      "params": {},
+      "time": 1792059570897
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/bottom_nav_bar_banner/",
+      "params": {},
+      "time": 1792059572939
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/main/feature-flags-whitelist",
+      "params": {},
+      "time": 1792059574969
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059574973
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu",
+      "params": {},
+      "time": 1792059575990
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_3"
+      },
+      "time": 1792059576001
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/navmenu-carrusel",
+      "params": {},
+      "time": 1792059576001
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/custom-categories",
+      "params": {},
+      "time": 1792059576001
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/promo/banners",
+      "params": {
+        "alias": "collection_2"
+      },
+      "time": 1792059577042
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/auth/oauth2.0/token",
+      "params": {},
+      "time": 1792059582436
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059582798
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "POST",
+      "path": "/api/v1/session/merge",
+      "params": {},
+      "time": 1792059583331
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/user/user_profile",
+      "params": {},
+      "time": 1792059584360
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059585379
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/session/get",
+      "params": {},
+      "time": 1792059586389
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059586407
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059587407
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/favorites/getFavorites/",
+      "params": {
+        "contract": "3"
+      },
+      "time": 1792059588415
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/bonus/bonus_data",
+      "params": {},
+      "time": 1792059588424
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/mytechnic/goods",
+      "params": {
+        "limit": "10",
+        "page": "1"
+      },
+      "time": 1792059588424
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792059591329
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059599261
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059601015
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059627861
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1181973",
+      "params": {},
+      "time": 1792059628877
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792059629890
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/delivery",
+      "params": {},
+      "time": 1792059631925
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/attrs",
+      "params": {},
+      "time": 1792059631926
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1181973/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792059632960
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059633983
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059636027
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059662735
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/431621",
+      "params": {},
+      "time": 1792059663730
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792059664744
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/delivery",
+      "params": {},
+      "time": 1792059666786
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/431621/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792059666789
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/attrs",
+      "params": {},
+      "time": 1792059667805
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {
+        "categoryId": "144"
+      },
+      "time": 1792059669858
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/listing/153",
+      "params": {
+        "view": "0",
+        "limit": "20",
+        "page": "1",
+        "ef": "",
+        "sort": "popular"
+      },
+      "time": 1792059671890
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/quick-filters",
+      "params": {},
+      "time": 1792059698594
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059699617
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/customers/orders",
+      "params": {
+        "order[createdOn]": "desc",
+        "limit": "10",
+        "offset": "0"
+      },
+      "time": 1792059700640
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1181973/attrs",
+      "params": {},
+      "time": 1792059701659
+    },
+    {
+      "pid": "13713",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/431621/attrs",
+      "params": {},
+      "time": 1792059702682
+    }
+  ],
+  "errors": []
+}

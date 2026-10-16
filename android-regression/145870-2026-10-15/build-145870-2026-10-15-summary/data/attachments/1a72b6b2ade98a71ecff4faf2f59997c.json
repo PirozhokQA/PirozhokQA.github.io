@@ -1,0 +1,9 @@
+{
+  "code": 171749,
+  "name": "Двухкамерный холодильник Atlant ХМ 4208-000",
+  "identityOnly": true,
+  "identitySource": "UI: exact productCardProductCode",
+  "openingRoute": "observed-share-deeplink",
+  "url": "https://www.holodilnik.ru/refrigerator/two_chambered_refrigerators/atlant/4208_000/?utm_source=share",
+  "urlSource": "Android Share UI after exact PDP SKU verification"
+}

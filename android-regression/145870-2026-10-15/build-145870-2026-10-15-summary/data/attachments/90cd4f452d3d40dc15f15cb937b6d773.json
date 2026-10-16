@@ -1,0 +1,11 @@
+{
+  "stage": "preparation",
+  "status": "blocked",
+  "reason": "Не удалось подготовить исходное избранное: Не дождались счётчик после добавления. Текущий экран: resource-id=\"android:id/content\" | resource-id=\"searchAppbarBack\" | resource-id=\"openSearchSuggestionScreenButton\" | resource-id=\"{productCard}ShareButton\" | resource-id=\"{productCard}CompareButton\" | resource-id=\"{productCard}FavoriteButton\" | resource-id=\"productCardImage\" | resource-id=\"productCardImage\" | content-desc=\"scrollProductCardImage\" | resource-id=\"scrollProductCardImage\" | content-desc=\"724\" | resource-id=\"productCardBonus\" | resource-id=\"productCardPromotionalBadge\" | content-desc=\"2 (два) подарка\" | content-desc=\"Двухкамерный холодильник Haier C4F640CWU1 белый\" | resource-id=\"productCardProductName\" | content-desc=\"521719 Код товара\" | resource-id=\"productCardProductCode\" | content-desc=\"72 499 ₽\" | resource-id=\"productCardProductPrice\" | content-desc=\"76 999 ₽\" | resource-id=\"productCardProductOldPrice\" | content-desc=\"6%\" | resource-id=\"productCardProductDiscount\" | content-desc=\"Нет отзывов\" | resource-id=\"productOpenReviewsButton\" | content-desc=\"ООО «ХОЛОДИЛЬНИК.РУ»\" | resource-id=\"productCardSellerName\" | content-desc=\"О продавце\" | resource-id=\"productCardSellerAboutIcon\" | content-desc=\"Дополнительная информация\" | content-desc=\"72 499 ₽\" | resource-id=\"priceOnButtonProductAddToCart\" | content-desc=\"Добавить в корзину\" | resource-id=\"productAddToCartButton\" | resource-id=\"catalogNavBarButton\" | content-desc=\"Каталог\" | resource-id=\"favoritesNavBarButton\" | content-desc=\"Избранное 3\" | resource-id=\"mainNavBarButton\" | content-desc=\"Поиск\" | resource-id=\"cartNavBarButton\" | content-desc=\"Корзина 10\" | resource-id=\"profileNavBarButton\" | content-desc=\"тест\"",
+  "fixture": "favorites-account",
+  "reused": true,
+  "preparationOwner": "MAA-T1048-favorites",
+  "caseStartedAt": 1792063371552,
+  "traceMark": 217,
+  "independentFunctionalChecks": true
+}

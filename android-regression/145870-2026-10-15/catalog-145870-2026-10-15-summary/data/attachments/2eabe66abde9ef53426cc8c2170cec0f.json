@@ -1,0 +1,46 @@
+{
+  "id": 759325,
+  "code": 390328,
+  "name": "Двухкамерный холодильник Korting KNFC 62029 GN",
+  "image_urls": {
+    "big": [
+      "https://holod.ru/pics/clean/big/25/759325_0.jpg",
+      "https://holod.ru/pics/clean/big/25/759325_1.jpg"
+    ],
+    "medium": [
+      "https://holod.ru/pics/clean/medium/25/759325_0.jpg",
+      "https://holod.ru/pics/clean/medium/25/759325_1.jpg"
+    ]
+  },
+  "price": {
+    "actual_price": 121999,
+    "old_price": 0,
+    "discount": 0
+  },
+  "availability": {
+    "is_available": true,
+    "count": 64,
+    "subscription_url": "",
+    "is_subscribed": false
+  },
+  "description": {
+    "details": []
+  },
+  "manuals_count": 1,
+  "actions": [
+    {
+      "id": 13025,
+      "title": "2 (два) подарка",
+      "description": "Списывайте 2000 бонусов как скидку 15% на все + доп.скидка 3100 руб. от 35000 руб. по промокоду ТЫКВА",
+      "background_color": "#F8F5EC",
+      "text_color": "#FFA740"
+    }
+  ],
+  "loyalty": {
+    "holod_points": 1219
+  },
+  "seller": {
+    "active": "0",
+    "name": "ООО «ХОЛОДИЛЬНИК.РУ»"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "productCode": 260182,
+  "compactCharacteristics": [
+    "Высота, см",
+    "Ширина, см",
+    "Глубина, см",
+    "Планетарный миксер",
+    "Мощность, Вт",
+    "Чаша в комплекте",
+    "Цвет товара"
+  ],
+  "visibleDescription": [
+    "productCardDeliveryMethodsPickup\nСамовывоз\nзавтра",
+    "productCardDeliveryMethodsCourier\nДоставка курьером\nc 24 октября",
+    "Описание",
+    "Характеристики",
+    "productCardDescriptionContent",
+    "Подробнее",
+    "Инструкции и файлы\n1",
+    "Отзывы",
+    "Оставить отзыв",
+    "121 999 ₽",
+    "Добавить в корзину",
+    "Каталог",
+    "Избранное",
+    "Поиск",
+    "Корзина",
+    "Войти"
+  ],
+  "source": "Current product UI"
+}

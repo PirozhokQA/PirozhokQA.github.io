@@ -1,0 +1,380 @@
+{
+  "requests": [
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "Холодильник",
+        "regionId": "1"
+      },
+      "time": 1792070000726
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792070002756
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792070003767
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792070003767
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792070003767
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "rating",
+        "ef": ""
+      },
+      "time": 1792070014987
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1028205",
+      "params": {},
+      "time": 1792070026220
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070027229
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1028205/delivery",
+      "params": {},
+      "time": 1792070029265
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1028205/attrs",
+      "params": {},
+      "time": 1792070029265
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1028205/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792070029265
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1139263",
+      "params": {},
+      "time": 1792070031314
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070032317
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1139263/delivery",
+      "params": {},
+      "time": 1792070033345
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1139263/attrs",
+      "params": {},
+      "time": 1792070034350
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1139263/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792070034350
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1108391",
+      "params": {},
+      "time": 1792070035373
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070036393
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1108391/delivery",
+      "params": {},
+      "time": 1792070038423
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1108391/attrs",
+      "params": {},
+      "time": 1792070038423
+    },
+    {
+      "pid": "15056",
+      "kind": "request",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1108391/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792070038423
+    }
+  ],
+  "responses": [
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/suggest",
+      "params": {
+        "search": "Холодильник",
+        "regionId": "1"
+      },
+      "time": 1792070000726
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/categories",
+      "params": {},
+      "time": 1792070003769
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/compilations/mindbox/PopularProd/",
+      "params": {},
+      "time": 1792070004784
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "popular",
+        "ef": ""
+      },
+      "time": 1792070006843
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/content/compilations/custom/12987",
+      "params": {},
+      "time": 1792070014987
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/search",
+      "params": {
+        "search": "Холодильник",
+        "page": "1",
+        "sort": "rating",
+        "ef": ""
+      },
+      "time": 1792070018051
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1028205",
+      "params": {},
+      "time": 1792070026220
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070027229
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1028205/delivery",
+      "params": {},
+      "time": 1792070029267
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1028205/attrs",
+      "params": {},
+      "time": 1792070029267
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1028205/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792070030290
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1139263",
+      "params": {},
+      "time": 1792070031314
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070032317
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1139263/delivery",
+      "params": {},
+      "time": 1792070034351
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1139263/reviews",
+      "params": {
+        "page": "1",
+        "limit": "6",
+        "sort": "new"
+      },
+      "time": 1792070034359
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1139263/attrs",
+      "params": {},
+      "time": 1792070034359
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v2/catalog/product/1108391",
+      "params": {},
+      "time": 1792070035378
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v3/schemas/product-card/",
+      "params": {},
+      "time": 1792070036394
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1108391/delivery",
+      "params": {},
+      "time": 1792070038423
+    },
+    {
+      "pid": "15056",
+      "kind": "response",
+      "method": "GET",
+      "path": "/api/v1/catalog/product/1108391/attrs",
+      "params": {},
+      "time": 1792070038425
+    }
+  ]
+}
