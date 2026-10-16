@@ -1,0 +1,9 @@
+# Floral entrance ornament
+
+Created with the built-in imagegen tool, using the user-provided photograph as a reference for the flowers. This is a decorative botanical illustration, not a photograph of salon work.
+
+## Final prompt
+
+Use case: stylized-concept. Asset type: transparent botanical corner ornament for the refined Klimt Beauty House website. Image 1 is a reference ONLY for the flowers around the real salon entrance, not an edit target. Create a new delicate botanical illustration inspired by that particular garland: creamy white hydrangea-like clusters, a few pale blush and lilac flowers, a few rich blackberry/burgundy clusters, small muted green leaves. Composition: a THIN, airy, asymmetric inverted-L garland, across the top edge and hanging down the LEFT edge of a square 1024x1024 canvas. Flowers extend from about x=70,y=60 to x=920,y=70 across the top, and from x=70,y=60 down to x=70,y=950 on the left; the botanical band is only 80–130px thick, occasionally 160px. At least 75 percent of the canvas, especially the entire centre and lower right, is completely transparent. The top arm gradually tapers to individual florets; the left arm tapers to a few leaves. Sophisticated hand-painted botanical gouache with fine petal detail, softly dimensional, matte, elegant editorial art, subtle natural imperfect shapes. Keep the real entrance's white/blush/berry palette and recognizable hydrangea clusters. This is a restrained brand ornament, not a full wedding arch, not a circular wreath. No building, doors, cars, people, vase, lettering, text, logo, frame, border, background colour, checkerboard or cast shadow. Genuinely transparent background and transparent centre.
+
+The generated file was copied into ../assets/entrance-flowers.png, preserving its RGBA transparency. Output dimensions: 1254 × 1254.
