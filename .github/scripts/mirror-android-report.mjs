@@ -27,6 +27,19 @@ for (const file of manifest.files) {
 let next = 0;
 let completed = 0;
 let bytes = 0;
+async function fetchPublicFile(path) {
+  let url = new URL(path, origin);
+  for (let redirect = 0; redirect < 5; redirect++) {
+    const response = await fetch(url, { redirect: 'manual', signal: AbortSignal.timeout(45000) });
+    if (![301, 302, 303, 307, 308].includes(response.status)) return response;
+    const location = response.headers.get('location');
+    if (!location) throw new Error(`Missing redirect location for ${path}`);
+    url = new URL(location, url);
+    if (url.origin !== new URL(origin).origin) throw new Error(`Redirect outside report host for ${path}`);
+    await response.body?.cancel();
+  }
+  throw new Error(`Too many redirects for ${path}`);
+}
 async function worker() {
   while (next < manifest.files.length) {
     const file = manifest.files[next++];
@@ -35,9 +48,7 @@ async function worker() {
     let buffer;
     for (let attempt = 0; attempt < 4; attempt++) {
       try {
-        const response = await fetch(new URL(file.path, origin), {
-          redirect: 'error', signal: AbortSignal.timeout(45000)
-        });
+        const response = await fetchPublicFile(file.path);
         if (!response.ok) throw new Error(`HTTP ${response.status} for ${file.path}`);
         buffer = Buffer.from(await response.arrayBuffer());
         if (buffer.length !== file.size || createHash('sha256').update(buffer).digest('hex') !== file.sha256) {
