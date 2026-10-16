@@ -62,7 +62,24 @@
 
 /* Compact header controls and a portrait-led first screen. */
 .header{height:110px;gap:24px}.small-brand{font-size:60px}.small-brand span{font-size:9px;letter-spacing:.15em;margin-top:10px}.header-right{gap:16px}.desktop-nav{gap:24px}
-.language-picker{position:relative;display:inline-flex;align-items:center;flex-shrink:0}.language-select{appearance:none;-webkit-appearance:none;width:72px;height:44px;padding:0 24px 0 11px;border:1px solid var(--line);border-radius:22px;background:transparent;color:var(--ink);font:500 11px var(--sans);cursor:pointer}.language-picker>svg{position:absolute;right:10px;top:16px;width:12px;height:12px;pointer-events:none;stroke-width:1.4}.language-select:focus-visible{outline:2px solid #9e496c;outline-offset:4px}.language-select option{color:#49323c;background:#faf7f4}.footer>.language-picker{margin-inline:auto}
+.language-picker{position:relative;display:block;flex-shrink:0}
+.language-trigger{display:flex;align-items:center;justify-content:center;gap:9px;width:72px;height:44px;padding:0 10px;border:1px solid var(--line);border-radius:24px;background:transparent;color:var(--ink);font:500 11px var(--sans);list-style:none;cursor:pointer;transition:background .2s,border-color .2s,box-shadow .2s}
+.language-trigger::-webkit-details-marker{display:none}
+.language-trigger>svg{width:12px;height:12px;flex-shrink:0;stroke-width:1.4;transition:transform .2s}
+.language-trigger:hover,.language-picker[open]>.language-trigger{background:#f5e8ed;border-color:#caa4b4}
+.language-picker[open]>.language-trigger>svg{transform:rotate(180deg)}
+.language-trigger:focus-visible{outline:2px solid #9e496c;outline-offset:4px}
+.language-menu{position:absolute;top:calc(100% + 10px);right:0;z-index:30;width:180px;padding:6px;border:1px solid #e3c6d1;border-radius:18px;background:#fffaf8;box-shadow:0 14px 35px #4a26391a,0 3px 9px #4a263908}
+.language-picker:not([open])>.language-menu{display:none}
+.language-option{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:44px;padding:10px 12px;border-radius:12px;color:var(--ink);font:500 13px/1.5 var(--sans);transition:background .18s}
+.language-option:hover,.language-option:focus-visible{background:#f8edf1}
+.language-option:focus-visible{outline:2px solid #9e496c;outline-offset:-2px}
+.language-option[aria-current=page]{background:#f1dfe7}
+.language-option>svg{width:15px;height:15px;flex-shrink:0;stroke-width:1.6;opacity:0}
+.language-option[aria-current=page]>svg{opacity:1}
+.footer>.language-picker{margin-inline:auto}
+.footer .language-menu{top:auto;bottom:calc(100% + 10px)}
+@media(prefers-reduced-motion:reduce){.language-trigger,.language-trigger>svg,.language-option{transition:none}}
 .menu-toggle{width:40px;height:44px;min-height:44px;padding:0;flex-direction:column;align-items:center;justify-content:center;gap:5px}.menu-toggle .menu-line{display:block;width:18px;height:1px;background:var(--ink);transform:none;transition:transform .25s}.menu-toggle[aria-expanded=true] .menu-line:first-child{transform:translateY(3px) rotate(45deg)}.menu-toggle[aria-expanded=true] .menu-line:last-child{transform:translateY(-3px) rotate(-45deg)}
 #home{padding-top:52px}#home .hero-stage{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:8%;align-items:center;margin:0}#home .hero-copy{padding:0;min-width:0}#home .hero-copy .kicker{font-size:11px;letter-spacing:.09em;line-height:1.7;margin:0 0 30px}#home .hero-headline{font:400 clamp(62px,6.4vw,96px)/1.02 var(--serif);letter-spacing:-.045em;margin:0}#home .hero-headline em{color:#855369}#home .intro{font-size:15px;line-height:1.85;max-width:340px;margin-top:28px}#home .link-arrow{margin-top:30px;font-size:14px}#home .hero-address{font-size:12px;color:var(--muted);line-height:1.7;margin-top:32px}#home .hero-main{width:100%;max-width:620px;min-width:0;margin:0;justify-self:end}#home .hero-main:before{inset:18px -16px 32px 18px}#home .hero-frames{width:100%;aspect-ratio:3/4;max-height:820px}#home .hero-frame img{object-position:50% 10%}#home .hero-caption{font-size:16px;flex-direction:row;align-items:center;justify-content:space-between;margin-top:16px;gap:15px}#home .hero-foot{margin-bottom:75px;padding-top:38px;gap:20px}#home .hero-foot>span{line-height:1.9}
 :lang(hy) #home .hero-headline{font-size:clamp(40px,4.7vw,69px);line-height:1.3}

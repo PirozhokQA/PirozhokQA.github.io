@@ -23,7 +23,39 @@ function setMenu(open){menu.hidden=!open;menuButton.setAttribute('aria-expanded'
 menuButton.addEventListener('click',()=>setMenu(menu.hidden));
 menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!menu.hidden){setMenu(false);menuButton.focus();}});
-document.querySelectorAll('.language-select').forEach(select=>select.addEventListener('change',()=>{const target=new URL(select.value,location.origin);target.hash=location.hash;location.assign(target.href);}));
+// Native disclosure and real links keep language navigation usable without JavaScript.
+const languagePickers=[...document.querySelectorAll('.language-picker')];
+function closeLanguages(except=null){languagePickers.forEach(picker=>{if(picker!==except)picker.open=false;});}
+function updateLanguageLinks(){document.querySelectorAll('.language-option').forEach(link=>{const target=new URL(link.href);target.hash=location.hash;link.href=target.href;});}
+updateLanguageLinks();
+window.addEventListener('hashchange',updateLanguageLinks);
+languagePickers.forEach(picker=>{
+ const trigger=picker.querySelector('summary');
+ const links=[...picker.querySelectorAll('.language-option')];
+ picker.addEventListener('toggle',()=>{if(picker.open){closeLanguages(picker);setMenu(false);updateLanguageLinks();}});
+ trigger.addEventListener('keydown',event=>{
+  if(event.key==='ArrowDown'||event.key==='ArrowUp'){
+   event.preventDefault();event.stopPropagation();picker.open=true;
+   (event.key==='ArrowUp'?links[links.length-1]:links[0]).focus();
+  }
+ });
+ picker.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&picker.open){event.preventDefault();event.stopPropagation();picker.open=false;trigger.focus();return;}
+  const index=links.indexOf(document.activeElement);
+  if(index<0)return;
+  let next=index;
+  if(event.key==='ArrowDown')next=(index+1)%links.length;
+  else if(event.key==='ArrowUp')next=(index+links.length-1)%links.length;
+  else if(event.key==='Home')next=0;
+  else if(event.key==='End')next=links.length-1;
+  else return;
+  event.preventDefault();links[next].focus();
+ });
+ picker.addEventListener('focusout',()=>requestAnimationFrame(()=>{if(!picker.contains(document.activeElement))picker.open=false;}));
+ links.forEach(link=>link.addEventListener('click',()=>{updateLanguageLinks();picker.open=false;}));
+});
+document.addEventListener('pointerdown',event=>{if(!event.target.closest('.language-picker'))closeLanguages();});
+menuButton.addEventListener('click',()=>closeLanguages());
 matchMedia('(min-width:768px)').addEventListener('change',e=>{if(e.matches)setMenu(false);});
 const serviceRows=[...document.querySelectorAll('.service-row')];
 serviceRows.forEach(row=>row.addEventListener('toggle',()=>{if(row.open)serviceRows.forEach(other=>{if(other!==row)other.open=false;});}));
