@@ -2,7 +2,7 @@
 
 Independent preview at /klimt-concept/, with Armenian, Russian and English pages. The existing /klimt-beauty-house/ site and the personal GitHub Pages homepage are preserved.
 
-The design uses a large editorial wordmark, asymmetric authentic salon photographs, a typographic service index, and a horizontal floral masthead inspired by the salon entrance. The floral illustration was created with the built-in imagegen tool from the user’s photograph of the salon entrance; it is decorative artwork and never substitutes for a photograph of salon work. See flower-prompt.md for the exact prompt. The entrance photograph itself is not published.
+The design uses a compact wordmark in the header, asymmetric authentic salon photographs, a typographic service index, and a horizontal floral masthead inspired by the salon entrance. The floral illustration was created with the built-in imagegen tool from the user’s photograph of the salon entrance; it is decorative artwork and never substitutes for a photograph of salon work. See flower-prompt.md for the exact prompt. The entrance photograph itself is not published.
 
 All salon work photographs, translations, people, contacts and service descriptions are reused from the verified /klimt-beauty-house/_source/content.mjs. No new prices, opening hours or claims are added.
 
@@ -20,3 +20,9 @@ Revision: all corner floral ornaments were removed from the main photograph and 
 Header refinement: removed the pink concept strip; the floral canopy starts at the viewport top. A single non-repeating panoramic image replaces tiling. The masthead is 170–260 px high, with responsive cover cropping and preserved photo caption sizes.
 
 Dimensional header revision: a new imagegen edit adds layered petals, directional light and internal shadows. The header now renders an image rather than a cover background. Its height follows the visible alpha lower bound, with 40 px reserved for the drop shadow and motion, so the lower flower and leaf contours remain complete. Only the top edge is cropped to keep flowers aligned to the top of the page. Metadata: flower-volume-metadata.json.
+
+Hero and navigation revision: the company name is now confined to the header, with a single native language select and an icon menu on mobile. The first screen uses one large portrait frame (the existing real-photo sequence), with text beside it on desktop and below it on narrow screens. The small nail photograph and overlapping hero wordmark are removed. Captions remain 16 px / 14 px.
+
+Petal animation: an original canvas effect draws shaded cream, pink, lilac and wine petals. The petals drift from the floral canopy and scatter around pointer movement; the canvas never receives pointer events. The animation is capped at 30 fps with fewer particles on narrow screens, respects reduced motion and visibility, and stops with the existing pause button. No libraries or assets from COLBA are used.
+
+Additional reference inspected: https://colbacolorbar.ru/ — atmospheric animated colour in the first screen. For Klimt the interaction is expressed with flower petals, retaining its own photos and palette.
