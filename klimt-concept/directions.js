@@ -57,7 +57,20 @@ function createPetalScene(canvas){
  window.addEventListener('pointerout',e=>{if(!e.relatedTarget)pointer.at=0;},{passive:true});
  document.addEventListener('visibilitychange',sync);
  preference.addEventListener('change',sync);
- return {setPaused(value){userPaused=value;sync();}};
+ return {setPaused(value){userPaused=value;if(!value)resize();sync();}};
 }
 petalController=createPetalScene(document.querySelector('.petal-canvas'));
 petalController.setPaused(paused);
+// Native modal for the real service portfolio photographs.
+const portfolioDialog=document.querySelector('.portfolio-lightbox');
+if(portfolioDialog){
+ const pictures=[...document.querySelectorAll('.portfolio-open')];let selectedPhoto=0,photoOpener=null;
+ function displayPortfolio(index){selectedPhoto=(index+pictures.length)%pictures.length;const link=pictures[selectedPhoto],thumb=link.querySelector('img'),image=portfolioDialog.querySelector('img');image.src=link.href;image.alt=thumb.alt;image.width=Number(thumb.getAttribute('width'));image.height=Number(thumb.getAttribute('height'));portfolioDialog.querySelector('figcaption').textContent=thumb.alt+' · '+(selectedPhoto+1)+' / '+pictures.length;const source=portfolioDialog.querySelector('.portfolio-dialog-source');source.href=link.dataset.source;source.textContent=link.dataset.sourceLabel+' ↗';}
+ pictures.forEach((link,index)=>link.addEventListener('click',event=>{if(typeof portfolioDialog.showModal!=='function')return;event.preventDefault();photoOpener=link;displayPortfolio(index);portfolioDialog.showModal();portfolioDialog.querySelector('.portfolio-close').focus();}));
+ portfolioDialog.querySelector('.portfolio-close').addEventListener('click',()=>portfolioDialog.close());
+ portfolioDialog.querySelector('.portfolio-prev').addEventListener('click',()=>displayPortfolio(selectedPhoto-1));
+ portfolioDialog.querySelector('.portfolio-next').addEventListener('click',()=>displayPortfolio(selectedPhoto+1));
+ portfolioDialog.addEventListener('keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();displayPortfolio(selectedPhoto+1);}if(event.key==='ArrowLeft'){event.preventDefault();displayPortfolio(selectedPhoto-1);}});
+ portfolioDialog.addEventListener('click',event=>{if(event.target!==portfolioDialog)return;const box=portfolioDialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)portfolioDialog.close();});
+ portfolioDialog.addEventListener('close',()=>photoOpener?.focus());
+}

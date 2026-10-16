@@ -1,0 +1,152 @@
+{
+  "retrieved": "2026-10-16",
+  "salon": "Klimt Beauty House",
+  "gallery": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+  "transformation": "WebP optimization and proportional thumbnail only; no retouching or upscaling.",
+  "observedSources": [
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/17737331/2a0000019f04b72223c36bb5d31a1ae259a9/XXXL",
+      "id": 4
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20179596/2a0000019f048c9a45f9b10ebfb9346be967/XXXL",
+      "id": 5
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20328247/2a0000019f04b7293f007b03dbddc57257a2/XXXL",
+      "id": 6
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/19996834/2a0000019f127b1ed09384a5f2981db7c799/XXXL",
+      "id": 8
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20390960/2a0000019f048c7596f49c06839f7724b869/XXXL",
+      "id": 9
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/17765111/2a0000019f048c87bfcba7ac6da2a50b734a/XXXL",
+      "id": 10
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/22321817/2a000001a0f60818411d031edbb1b5c9115a/XXXL",
+      "id": 11
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20179276/2a000001a0f60800f0fd1b5ecf5d5707a393/XXXL",
+      "id": 12
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20784471/2a000001a0f607e349a007fd22b0a560d086/XXXL",
+      "id": 13
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/21221720/2a000001a09a5b9544a3549a8b5ac68ffb6f/XXXL",
+      "id": 14
+    },
+    {
+      "url": "https://avatars.mds.yandex.net/get-altay/20390960/2a0000019f16edc88fc1c4aa2fd513b0641d/XXXL",
+      "id": 15
+    }
+  ],
+  "photos": [
+    {
+      "file": "client-lashes-map-01",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "5",
+      "captions": {
+        "ru": "Ресницы · крупный план",
+        "en": "Lashes · close-up",
+        "hy": "Թարթիչներ․ խոշոր պլան"
+      }
+    },
+    {
+      "file": "client-lashes-map-02",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "9",
+      "captions": {
+        "ru": "Ресницы · объём",
+        "en": "Lashes · volume",
+        "hy": "Թարթիչներ․ ծավալ"
+      }
+    },
+    {
+      "file": "client-lashes-map-03",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "10",
+      "captions": {
+        "ru": "Ресницы · детали",
+        "en": "Lashes · details",
+        "hy": "Թարթիչներ․ մանրամասներ"
+      }
+    },
+    {
+      "file": "client-makeup-map-01",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "4",
+      "captions": {
+        "ru": "Макияж · акцент на глаза",
+        "en": "Makeup · eye detail",
+        "hy": "Դիմահարդարում․ աչքերի շեշտադրում"
+      }
+    },
+    {
+      "file": "client-makeup-map-02",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "6",
+      "captions": {
+        "ru": "Макияж · готовый образ",
+        "en": "Makeup · finished look",
+        "hy": "Դիմահարդարում․ ամբողջական կերպար"
+      }
+    },
+    {
+      "file": "client-makeup-map-03",
+      "width": 960,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "11",
+      "captions": {
+        "ru": "Макияж · вечерний образ",
+        "en": "Makeup · evening look",
+        "hy": "Դիմահարդարում․ երեկոյան կերպար"
+      }
+    },
+    {
+      "file": "client-nails-yellow-map",
+      "width": 720,
+      "height": 1280,
+      "smallWidth": 480,
+      "source": "https://yandex.com/maps/org/klimt/76498610218/gallery/",
+      "sourceType": "yandex",
+      "auditPhoto": "15",
+      "captions": {
+        "ru": "Маникюр · жёлтый цвет",
+        "en": "Manicure · yellow colour",
+        "hy": "Մատնահարդարում․ դեղին գույն"
+      }
+    }
+  ]
+}

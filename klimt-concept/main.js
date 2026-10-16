@@ -1,6 +1,6 @@
 const root=document.documentElement;
 const preference=matchMedia('(prefers-reduced-motion: reduce)');
-let paused=preference.matches,petalController=null;
+let paused=preference.matches||matchMedia('(max-width:767px)').matches,petalController=null;
 const motionToggle=document.querySelector('.motion-control');
 function setMotion(){root.classList.toggle('motion-paused',paused);root.classList.toggle('js-motion',!paused);motionToggle.setAttribute('aria-pressed',String(!paused));motionToggle.innerHTML='<span aria-hidden="true">'+(paused?'▷':'Ⅱ')+'</span> <span>'+(paused?document.body.dataset.resume:document.body.dataset.pause)+'</span>';petalController?.setPaused(paused);}
 setMotion();
@@ -104,7 +104,7 @@ function createPetalScene(canvas){
  window.addEventListener('pointerout',e=>{if(!e.relatedTarget)pointer.at=0;},{passive:true});
  document.addEventListener('visibilitychange',sync);
  preference.addEventListener('change',sync);
- return {setPaused(value){userPaused=value;sync();}};
+ return {setPaused(value){userPaused=value;if(!value)resize();sync();}};
 }
 petalController=createPetalScene(document.querySelector('.petal-canvas'));
 petalController.setPaused(paused);
@@ -112,7 +112,7 @@ petalController.setPaused(paused);
 const portfolioDialog=document.querySelector('.portfolio-lightbox');
 if(portfolioDialog){
  const pictures=[...document.querySelectorAll('.portfolio-open')];let selectedPhoto=0,photoOpener=null;
- function displayPortfolio(index){selectedPhoto=(index+pictures.length)%pictures.length;const link=pictures[selectedPhoto],thumb=link.querySelector('img'),image=portfolioDialog.querySelector('img');image.src=link.href;image.alt=thumb.alt;image.width=Number(thumb.getAttribute('width'));image.height=Number(thumb.getAttribute('height'));portfolioDialog.querySelector('figcaption').textContent=thumb.alt+' · '+(selectedPhoto+1)+' / '+pictures.length;portfolioDialog.querySelector('.portfolio-dialog-source').href=link.dataset.source;}
+ function displayPortfolio(index){selectedPhoto=(index+pictures.length)%pictures.length;const link=pictures[selectedPhoto],thumb=link.querySelector('img'),image=portfolioDialog.querySelector('img');image.src=link.href;image.alt=thumb.alt;image.width=Number(thumb.getAttribute('width'));image.height=Number(thumb.getAttribute('height'));portfolioDialog.querySelector('figcaption').textContent=thumb.alt+' · '+(selectedPhoto+1)+' / '+pictures.length;const source=portfolioDialog.querySelector('.portfolio-dialog-source');source.href=link.dataset.source;source.textContent=link.dataset.sourceLabel+' ↗';}
  pictures.forEach((link,index)=>link.addEventListener('click',event=>{if(typeof portfolioDialog.showModal!=='function')return;event.preventDefault();photoOpener=link;displayPortfolio(index);portfolioDialog.showModal();portfolioDialog.querySelector('.portfolio-close').focus();}));
  portfolioDialog.querySelector('.portfolio-close').addEventListener('click',()=>portfolioDialog.close());
  portfolioDialog.querySelector('.portfolio-prev').addEventListener('click',()=>displayPortfolio(selectedPhoto-1));

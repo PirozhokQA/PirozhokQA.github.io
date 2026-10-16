@@ -74,3 +74,10 @@ body:has(.portfolio-lightbox[open]){overflow:hidden}.portfolio-lightbox{position
 .service-gallery.gallery-pair{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1100px}@media(max-width:700px){.service-gallery.gallery-pair{grid-template-columns:1fr}}
 
 .portfolio-heading>div>h2{margin-top:13px}.portfolio-heading>div>.eyebrow{font-size:10px;max-width:none}
+
+/* Selected layout without decorative captions or card indices. */
+.selected-bloom .hero-under{display:flex;justify-content:flex-end}
+.selected-bloom .service-chips .section-heading{grid-template-columns:minmax(0,1.6fr) minmax(220px,.7fr)}
+.selected-bloom .service-chips .section-intro{grid-column:auto}
+.selected-bloom .service-chips .service-item h3{margin-top:0}
+@media(max-width:700px){.selected-bloom .service-chips .section-heading{display:block}.selected-bloom .service-chips .section-heading h2{margin-top:0}.selected-bloom .hero-under .motion-control{margin-top:0}}
