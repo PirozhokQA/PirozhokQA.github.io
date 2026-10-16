@@ -16,3 +16,5 @@ The preview pages have noindex,nofollow. Production SEO is unchanged.
 
 Validation completed: syntax check; all local assets and anchor targets; three translated pages; image dimensions; contact destinations; no untranslated Russian text in Armenian/English except the language selector; responsive checks at 360, 390, 768 and 1440 px; menu/Escape; lightbox arrows/Escape/focus return; animation pause; language switching preserving the section hash.
 Revision: all corner floral ornaments were removed from the main photograph and contacts. A horizontal floral garland spans the top of the page above the navigation. Photo captions are 16 px on desktop and 14 px on mobile, with stronger contrast and larger line spacing. The new header illustration is assets/header-flowers.png. The previous corner illustration remains in source history and is not rendered.
+
+Header refinement: removed the pink concept strip; the floral canopy starts at the viewport top. A single non-repeating panoramic image replaces tiling. The masthead is 170–260 px high, with responsive cover cropping and preserved photo caption sizes.
