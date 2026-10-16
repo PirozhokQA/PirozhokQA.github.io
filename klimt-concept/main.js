@@ -1,6 +1,6 @@
 const root=document.documentElement;
 const preference=matchMedia('(prefers-reduced-motion: reduce)');
-let paused=true,petalController=null;
+let paused=preference.matches,petalController=null;
 const motionToggle=document.querySelector('.motion-control');
 function setMotion(){root.classList.toggle('motion-paused',paused);root.classList.toggle('js-motion',!paused);motionToggle.setAttribute('aria-pressed',String(!paused));motionToggle.innerHTML='<span aria-hidden="true">'+(paused?'▷':'Ⅱ')+'</span> <span>'+(paused?document.body.dataset.resume:document.body.dataset.pause)+'</span>';petalController?.setPaused(paused);}
 setMotion();

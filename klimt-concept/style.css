@@ -56,10 +56,8 @@
 @media(max-width:767px){.site-nav{min-height:84px;gap:16px}.site-nav>.desktop-nav{display:none}.site-nav>a{font-size:10px}.nav-controls{gap:8px}.menu-toggle{display:flex}.site-nav>.mobile-nav:not([hidden])>a{display:block}.selected-bloom .brand-block h1{font-size:27vw;padding-top:12px;margin-top:0}.selected-bloom .brand-block>p{font-size:8px;letter-spacing:.4em}.bottom-note>.language-picker{margin-left:0}.selected-bloom .bottom-note{gap:20px}.map-links{gap:17px;font-size:11px}:lang(hy) .bloom-message h2{font-size:35px}:lang(hy) .section-heading h2{font-size:30px}:lang(hy) .about-bloom h2{font-size:33px}:lang(hy) .contact-section h2{font-size:43px}}
 @media(prefers-reduced-motion:reduce){.menu-line{transition:none}}
 
-/* Petals stay behind the page; opaque reading areas protect every text block. */
-.selected-bloom .petal-canvas{z-index:0;opacity:.3}
-.selected-bloom .floral-masthead,.selected-bloom main,.selected-bloom .contact-section{position:relative;z-index:1}
-.selected-bloom .brand-block,.selected-bloom .services-section,.selected-bloom .hero-under,.selected-bloom .site-nav{background:var(--paper)}
+/* Restore the original visible petal layer above the page. */
+.selected-bloom .petal-canvas{z-index:8;opacity:.65}
 
 .selected-bloom svg{display:block;fill:none;stroke:currentColor;stroke-width:1.4}
 
