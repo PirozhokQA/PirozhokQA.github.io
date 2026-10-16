@@ -1,0 +1,14 @@
+{
+  "width": 2171,
+  "height": 724,
+  "visibleAlphaBounds": [
+    0,
+    6,
+    2171,
+    571
+  ],
+  "alphaThreshold": 4,
+  "sourceTopCrop": 100,
+  "bottomSafetyPadding": 40,
+  "minRenderedWidth": 720
+}

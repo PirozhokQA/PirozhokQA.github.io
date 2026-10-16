@@ -47,10 +47,15 @@
 @media(max-width:767px){.hero-caption{font-size:14px;line-height:1.5;align-items:flex-start;gap:4px;margin-top:13px}.frame-controls button{font-size:13px;min-width:36px;min-height:44px}.detail-photo figcaption{font-size:14px;line-height:1.55;gap:7px;margin-top:13px}.detail-photo figcaption span{font-size:11px}.work-item figcaption{font-size:14px;line-height:1.6;gap:8px;margin-top:13px}.work-item figcaption span:first-child{font-size:11px}.film-poster-caption{font-size:13px;line-height:1.55}.lightbox figcaption{font-size:14px}.team-person p{font-size:14px}}
 
 /* A horizontal floral masthead replaces all corner ornaments. */
-.floral-masthead{height:clamp(170px,18vw,260px);position:relative;overflow:hidden;background:#faf7f4}
-.floral-canopy{position:absolute;inset:-55px 0 -35px;background-image:url('/klimt-concept/assets/header-flowers.png');background-repeat:no-repeat;background-size:cover;background-position:center center;animation:canopy-breath 12s ease-in-out infinite alternate}
+
+
 .entrance-note{margin-top:35px;display:block}.entrance-note>p{max-width:300px}
-@keyframes canopy-breath{from{transform:translateY(-1px)}to{transform:translateY(2px)}}
-@media(max-width:767px){.floral-masthead{height:170px}.floral-canopy{background-size:cover}.entrance-note{margin-top:23px}.entrance-note>p{max-width:250px}}
-@media(prefers-reduced-motion:reduce){.floral-canopy{animation:none}}
+@keyframes canopy-breath{from{transform:translate(-50%,-1px)}to{transform:translate(-50%,2px)}}
+@media(max-width:767px){.entrance-note{margin-top:23px}.entrance-note>p{max-width:250px}}
+@media(prefers-reduced-motion:reduce){}
 @media(max-width:767px){.work-item figcaption{display:block}.work-item figcaption span:first-child{display:block;margin-bottom:3px;padding-top:0}.work-item figcaption span:last-child{display:block;overflow-wrap:break-word}}
+/* Dimensional flowers retain their complete natural lower silhouette. */
+.floral-masthead{--flower-span:max(100vw,720px);height:calc(var(--flower-span) * 0.2169507140 + 40px);position:relative;overflow:hidden;background:var(--paper)}
+.floral-canopy{position:absolute;left:50%;top:calc(var(--flower-span) * -0.0460617227);width:var(--flower-span);transform:translateX(-50%);filter:drop-shadow(0 9px 8px #4a26392b);animation:canopy-breath 12s ease-in-out infinite alternate;pointer-events:none}
+.floral-canopy>img{display:block;width:100%;height:auto;max-width:none}
+@media(prefers-reduced-motion:reduce){.floral-canopy{animation:none}}
