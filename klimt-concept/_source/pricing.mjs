@@ -37,7 +37,7 @@ export function formatPrice(item,lang){
 }
 export function priceRows(slug,lang){
  const group=priceGroups.find(group=>group.slug===slug);
- return (group?.items||[]).map(item=>`<div class="price-row"><dt>${esc(item.name[lang])}${item.note?`<small>${esc(item.note[lang])}</small>`:''}${!item.surcharge?`<a href="#contact" data-open-booking data-service="${esc(slug)}" data-procedure="${esc(item.id)}">${priceTexts[lang].book} ↗</a>`:''}</dt><dd>${esc(formatPrice(item,lang))}</dd></div>`).join('');
+ return (group?.items||[]).map(item=>`<div class="price-row"><dt>${esc(item.name[lang])}${item.note?`<small>${esc(item.note[lang])}</small>`:''}</dt><dd><span class="price-amount">${esc(formatPrice(item,lang))}</span>${!item.surcharge?`<a class="price-book" href="#contact" data-open-booking data-service="${esc(slug)}" data-procedure="${esc(item.id)}" aria-label="${esc(priceTexts[lang].book+': '+item.name[lang])}">${priceTexts[lang].book} <span aria-hidden="true">↗</span></a>`:''}</dd></div>`).join('');
 }
 const sources=(lang,slug)=>`<div class="price-sources">${slug!=='hair'?`<a href="${priceSource.url}" target="_blank" rel="noopener noreferrer">${priceTexts[lang].source} ↗</a>`:''}${!slug||slug==='hair'?`<a href="${haircutSource}" target="_blank" rel="noopener noreferrer">${priceTexts[lang].haircutSource} ↗</a>`:''}</div>`;
 export function priceSection(lang,services){

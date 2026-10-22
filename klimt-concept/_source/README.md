@@ -55,3 +55,8 @@ Experience revision, 2026-10-22
 
 2026-10-22 button refinement: removed the entrance photograph and caption from all three main pages; the visit section now contains two text columns (address/hours and preparation/actions), stacking on phones. Removed obsolete photo wording from the FAQ. Action links across the site now use rose-filled rounded buttons with a border, visible focus/hover states and a distinct arrow chip; source citations retain link styling. Portfolio CTAs are on their own line. Compact header behaviour is preserved through 1100 px. Cache revision: buttons-15. Existing booking/finder DOM regression checks pass.
 
+
+
+### Revision 16 — price and footer spacing (2026-10-22)
+
+Moved each price-row booking action out of the service name into the price cell, with a separate outlined button and a 14px gap. Desktop rows keep the service name and price/action in distinct columns; narrow screens stack the name above the price/action. Procedure selection attributes are preserved. Removed the booking action from the footer navigation. Maps and section links now use separate rows, 44px touch targets and explicit horizontal/vertical gaps, with stacked map links on phones. Applies to all three languages and service pages.
