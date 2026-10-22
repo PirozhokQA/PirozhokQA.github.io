@@ -72,5 +72,20 @@ if(portfolioDialog){
  portfolioDialog.querySelector('.portfolio-next').addEventListener('click',()=>displayPortfolio(selectedPhoto+1));
  portfolioDialog.addEventListener('keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();displayPortfolio(selectedPhoto+1);}if(event.key==='ArrowLeft'){event.preventDefault();displayPortfolio(selectedPhoto-1);}});
  portfolioDialog.addEventListener('click',event=>{if(event.target!==portfolioDialog)return;const box=portfolioDialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)portfolioDialog.close();});
- portfolioDialog.addEventListener('close',()=>photoOpener?.focus());
+ let swipeStart=null;
+ const swipeSurface=portfolioDialog.querySelector('.portfolio-dialog-layout figure');
+ swipeSurface.addEventListener('touchstart',event=>{
+  if(event.touches.length!==1){swipeStart=null;return;}
+  const touch=event.touches[0];swipeStart={id:touch.identifier,x:touch.clientX,y:touch.clientY};
+ },{passive:true});
+ swipeSurface.addEventListener('touchmove',event=>{if(event.touches.length!==1)swipeStart=null;},{passive:true});
+ swipeSurface.addEventListener('touchcancel',()=>{swipeStart=null;},{passive:true});
+ swipeSurface.addEventListener('touchend',event=>{
+  const start=swipeStart;swipeStart=null;
+  if(!start||!portfolioDialog.open||event.touches.length)return;
+  const touch=[...event.changedTouches].find(t=>t.identifier===start.id);if(!touch)return;
+  const dx=touch.clientX-start.x,dy=touch.clientY-start.y;
+  if(Math.abs(dx)>=50&&Math.abs(dx)>Math.abs(dy)*1.3)displayPortfolio(selectedPhoto+(dx<0?1:-1));
+ },{passive:true});
+ portfolioDialog.addEventListener('close',()=>{swipeStart=null;photoOpener?.focus();});
 }

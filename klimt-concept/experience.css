@@ -95,3 +95,103 @@
  .footer-navigation .footer-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px}
  .footer-navigation a{width:fit-content}
 }
+
+
+/* Mobile readability and a short, optional-detail booking flow. */
+.selected-bloom{--muted:#6b5560}
+.selected-bloom .hero-services{display:none}
+.booking-selection{font-size:14px;line-height:1.7;margin-top:18px;padding:12px 16px;border-left:2px solid #bb8ca3;background:#f8edf2}
+.booking-extras{margin-top:20px;border:1px solid var(--line);border-radius:14px;padding:0 16px}
+.booking-extras>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:52px;padding:12px 0;cursor:pointer;list-style:none;font-size:14px;line-height:1.65}
+.booking-extras>summary::-webkit-details-marker{display:none}
+.booking-extras>summary>span{font-size:22px;flex-shrink:0}
+.booking-extras[open]>summary>span{transform:rotate(45deg)}
+.booking-extras .booking-fields{padding:8px 0 20px}
+.booking-extras>summary:focus-visible{outline:2px solid #8f4e70;outline-offset:4px}
+@media(max-width:767px){
+ .selected-bloom .floral-masthead{--flower-span:max(100vw,420px);height:calc(var(--flower-span)*.287425151 + 8px)}
+ .selected-bloom .site-nav{min-height:72px;gap:12px}
+ .selected-bloom .site-nav>a{font-size:12px}
+ .selected-bloom .menu-toggle{width:44px;height:44px}
+ .selected-bloom .language-trigger{width:80px;font-size:13px}
+ .selected-bloom .language-option{font-size:14px;min-height:48px}
+ .selected-bloom .brand-meta{flex-wrap:wrap;gap:8px 20px;font-size:12px;line-height:1.6;letter-spacing:.04em}
+ .selected-bloom .brand-block>p{font-size:11px}
+ .selected-bloom .hero-actions{display:grid;gap:12px;justify-items:start}
+ .selected-bloom .hero-services{display:inline-flex}
+ .selected-bloom .hero-actions>a{width:100%;justify-content:space-between}
+ .selected-bloom .section-intro,
+ .selected-bloom .service-chips .service-item p,
+ .selected-bloom .service-description,
+ .selected-bloom .about-bloom .split-bloom>div>p:not(.eyebrow),
+ .selected-bloom .experience-heading>p,
+ .selected-bloom .finder-section p,
+ .selected-bloom .procedure-card p,
+ .selected-bloom .review-card>p,
+ .selected-bloom .faq-list details>p,
+ .selected-bloom .visit-layout>div>p:not(.visit-address),
+ .selected-bloom .contact-details p,
+ .selected-bloom .service-support>p:not(.eyebrow),
+ .selected-bloom .dialog-intro,
+ .selected-bloom .booking-ready>p,
+ .selected-bloom .finder-content>p{font-size:16px;line-height:1.7}
+ .selected-bloom .team-person p,
+ .selected-bloom .procedure-heading>p,
+ .selected-bloom .portfolio-heading p,
+ .selected-bloom .prices-heading>p,
+ .selected-bloom .service-price,
+ .selected-bloom .booking-field,
+ .selected-bloom .booking-status,
+ .selected-bloom .finder-progress{font-size:14px;line-height:1.65}
+ .selected-bloom .text-link,
+ .selected-bloom .solid-button,
+ .selected-bloom .price-book,
+ .selected-bloom .procedure-choice .text-link,
+ .selected-bloom .service-support .solid-button,
+ .selected-bloom .service-switcher a,
+ .selected-bloom .mobile-contact a{font-size:14px;line-height:1.55;min-height:48px;max-width:100%;white-space:normal}
+ .selected-bloom .text-link,.selected-bloom .solid-button{overflow-wrap:anywhere}
+ .selected-bloom .motion-control,
+ .selected-bloom .service-back{font-size:14px;min-height:44px}
+ .selected-bloom .service-card-action{font-size:14px;line-height:1.6;margin-top:20px}
+ .selected-bloom .portfolio-author,
+ .selected-bloom .procedure-card small,
+ .selected-bloom .review-card footer,
+ .selected-bloom .price-footnote,
+ .selected-bloom .price-sources,
+ .selected-bloom .privacy-note,
+ .selected-bloom .finder-note,
+ .selected-bloom .bottom-note,
+ .selected-bloom .booking-reference figcaption,
+ .selected-bloom .booking-reference button{font-size:12px;line-height:1.75}
+ .selected-bloom .portfolio-source,.selected-bloom .review-source{font-size:12px;min-height:44px;align-items:center}
+ .selected-bloom .price-sources a{display:flex;align-items:center;min-height:44px}
+ .selected-bloom .faq-list summary{font-size:17px;line-height:1.6}
+ .selected-bloom .booking-fields{grid-template-columns:minmax(0,1fr);gap:18px}
+ .selected-bloom .booking-wide{grid-column:auto}
+ .selected-bloom .booking-selection{font-size:14px}
+ .selected-bloom .booking-submit>.solid-button{width:100%;justify-content:center}
+ .selected-bloom .booking-submit>.text-link{margin-top:16px}
+ .selected-bloom .experience-dialog{scroll-padding-block:24px;overflow-wrap:anywhere}
+ .selected-bloom .mobile-contact a{gap:8px;text-align:center}
+ .selected-bloom .contact-section{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+ /* The photograph owns the full width; navigation sits below it. */
+ .selected-bloom .portfolio-lightbox{width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;inset:0;margin:0;border-radius:0;padding:calc(62px + env(safe-area-inset-top)) 12px calc(20px + env(safe-area-inset-bottom));overflow:auto}
+ .selected-bloom .portfolio-close{position:fixed;top:calc(8px + env(safe-area-inset-top));right:12px;width:46px;height:46px;border:1px solid var(--line);border-radius:50%;background:#fffaf8f2;z-index:2}
+ .selected-bloom .portfolio-dialog-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+ .selected-bloom .portfolio-dialog-layout>figure{grid-column:1/-1;grid-row:1;min-width:0}
+ .selected-bloom .portfolio-dialog-layout img{max-width:100%;max-height:78dvh;touch-action:pan-y pinch-zoom}
+ .selected-bloom .portfolio-dialog-layout>.portfolio-prev{grid-column:1;grid-row:2;justify-self:end}
+ .selected-bloom .portfolio-dialog-layout>.portfolio-next{grid-column:2;grid-row:2;justify-self:start}
+ .selected-bloom .portfolio-dialog-layout>button{width:48px;min-height:48px;border:1px solid var(--line);border-radius:50%;background:#f4e1e9}
+ .selected-bloom .portfolio-dialog-layout figcaption{font-size:14px;line-height:1.6;margin-top:16px}
+ .selected-bloom .portfolio-dialog-source{font-size:12px;min-height:44px;line-height:1.6;align-items:center}
+}
+
+@media(max-width:767px){
+ .selected-bloom .eyebrow{font-size:12px;line-height:1.6;letter-spacing:.06em}
+ .selected-bloom .review-card time,.selected-bloom .portfolio-number,.selected-bloom .service-wordmark>span,.selected-bloom .price-row dt small{font-size:12px}
+ .selected-bloom .portfolio-item figcaption,.selected-bloom .finder-content label>span{font-size:16px;line-height:1.65}
+ .selected-bloom .form-error,.selected-bloom .copy-status,.selected-bloom .booking-ready>label{font-size:14px;line-height:1.65}
+ .selected-bloom .booking-ready textarea{font-size:16px!important;line-height:1.7!important}
+}

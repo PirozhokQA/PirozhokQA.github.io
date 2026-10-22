@@ -60,3 +60,12 @@ Experience revision, 2026-10-22
 ### Revision 16 — price and footer spacing (2026-10-22)
 
 Moved each price-row booking action out of the service name into the price cell, with a separate outlined button and a 14px gap. Desktop rows keep the service name and price/action in distinct columns; narrow screens stack the name above the price/action. Procedure selection attributes are preserved. Removed the booking action from the footer navigation. Maps and section links now use separate rows, 44px touch targets and explicit horizontal/vertical gaps, with stacked map links on phones. Applies to all three languages and service pages.
+
+
+### Revision 17 — mobile readability and contact (2026-10-22)
+
+Mobile body copy is 16px, supporting text and action labels are generally 14px, and minor source/disclosure text is at least 12px. The secondary colour is darker. The flower header preserves its natural lower silhouette at approximately 129px on 360/390px screens. Responsive transparent WebP header images replace the 2.24MB PNG for the selected site; only the fonts needed by each page language are requested.
+
+The fixed Instagram action opens the official profile directly. The booking form initially shows service, preferred time and comment, with optional procedure, master, date, name and phone inside a disclosure. Service is the only required field. Preselected procedures/authors remain visible in a summary and photo references are preserved. The existing explicit manual Instagram handoff and administrator confirmation remain.
+
+The mobile lightbox uses the full viewport width, with 48px navigation controls below the image, a fixed close control, horizontal swipe navigation, keyboard support and focus restoration. Vertical scroll and multi-touch gestures are not intercepted. The hero offers a mobile link to services/prices. Browser QA remains limited by the unavailable browser tool; run source/DOM/behaviour checks and verify production publication.

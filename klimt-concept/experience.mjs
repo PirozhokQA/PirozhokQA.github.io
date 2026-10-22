@@ -18,6 +18,16 @@ if(node){
   field('master').replaceChildren(option('',t.anyMaster),...config.masters.filter(m=>m.service===field('service').value).map(m=>option(m.id,m.name)));
   field('procedure').value=config.procedures.some(p=>p.id===procedure&&p.service===field('service').value)?procedure:'';
   field('master').value=config.masters.some(m=>m.id===master&&m.service===field('service').value)?master:'';
+  updateSelection();
+ }
+ function updateSelection(){
+  const choices=[config.procedures.find(p=>p.id===field('procedure').value)?.name,config.masters.find(m=>m.id===field('master').value)?.name].filter(Boolean);
+  const selection=booking.querySelector('.booking-selection');
+  selection.hidden=!choices.length;selection.textContent=choices.length?t.selected+': '+choices.join(' · '):'';
+ }
+ function revealField(input){
+  const extras=input.closest('.booking-extras');if(extras)extras.open=true;
+  input.focus();
  }
  function updateReference(){
   referenceBox.hidden=!reference;
@@ -28,7 +38,7 @@ if(node){
  function showForm(){formView.hidden=false;ready.hidden=true;error.hidden=true;booking.querySelector('.copy-status').textContent='';}
  function openBooking(options={},opener=null){
   if(typeof booking.showModal!=='function'){location.hash='contact';return;}
-  bookingOpener=opener;showForm();
+  bookingOpener=opener;showForm();booking.querySelector('.booking-extras').open=false;
   field('date').min=yerevanToday();
   field('service').value=config.services.some(s=>s.slug===options.service)?options.service:'';
   updateChoices(options.procedure,options.master);
@@ -36,7 +46,7 @@ if(node){
   const url=validReference(options.photo,config.origin);
   reference=url?{url,caption:options.caption||t.reference}:null;updateReference();
   booking.showModal();
-  (field('service').value?field('name'):field('service')).focus();
+  (field('service').value?field('time'):field('service')).focus({preventScroll:true});
   track('booking_open',{service:field('service').value,procedure:field('procedure').value});
  }
  function closeDialog(dialog){
@@ -52,12 +62,15 @@ if(node){
   const instagram=event.target.closest('a[href^="https://www.instagram.com/klimt_beauty_house/"]');if(instagram)track('contact_click',{channel:'instagram',service:field('service').value});
  });
  field('service').addEventListener('change',()=>{updateChoices();reference=null;updateReference();});
+ field('procedure').addEventListener('change',updateSelection);
+ field('master').addEventListener('change',updateSelection);
  booking.querySelector('[data-remove-reference]').addEventListener('click',()=>{reference=null;updateReference();});
+ form.addEventListener('invalid',event=>{const extras=event.target.closest('.booking-extras');if(extras)extras.open=true;},true);
  form.addEventListener('submit',event=>{
   event.preventDefault();
   const data=Object.fromEntries(['service','procedure','master','name','phone','date','time','comment'].map(name=>[name,field(name).value]));
   const problem=validateBooking(data,config);
-  if(problem){error.textContent=t[problem]||t.invalid;error.hidden=false;field(problem==='noPast'?'date':'name').focus();return;}
+  if(problem){error.textContent=t[problem]||t.invalid;error.hidden=false;revealField(field(problem==='noPast'?'date':data.phone?'phone':'service'));return;}
   message.value=composeMessage({...data,reference},config);
   error.hidden=true;formView.hidden=true;ready.hidden=false;booking.scrollTop=0;ready.querySelector('h2').focus();
   track('booking_message_prepared',data);

@@ -6,7 +6,7 @@ export function validReference(value,origin){
  try{const url=new URL(value,origin);return url.origin===origin&&/^\/klimt-(concept|beauty-house)\/assets\/[a-z0-9_-]+\.(webp|png|jpg)$/i.test(url.pathname)?url.href:'';}catch{return '';}
 }
 export function validateBooking(data,config,today=yerevanToday()){
- if(!config.services.some(s=>s.slug===data.service)||!String(data.name||'').trim()||String(data.name).length>80)return 'invalid';
+ if(!config.services.some(s=>s.slug===data.service)||String(data.name||'').length>80)return 'invalid';
  if(data.procedure&&!config.procedures.some(p=>p.id===data.procedure&&p.service===data.service))return 'invalid';
  if(data.master&&!config.masters.some(m=>m.id===data.master&&m.service===data.service))return 'invalid';
  if(data.phone&&(!/^[+\d\s().-]+$/.test(data.phone)||data.phone.replace(/\D/g,'').length<8||data.phone.replace(/\D/g,'').length>18))return 'invalid';

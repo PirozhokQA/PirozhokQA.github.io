@@ -86,3 +86,11 @@ export const faqItems=[
  {q:l('Нужна ли подготовка к процедуре?','Do I need to prepare?','Պե՞տք է նախապատրաստվել'),a:l('Подготовка зависит от процедуры. Для косметологии, ЭЛОС и наращивания ресниц заранее уточните рекомендации у специалиста.','Preparation depends on the treatment. Ask your specialist in advance about cosmetology, ELOS or lash extension appointments.','Նախապատրաստումը կախված է ծառայությունից։ Կոսմետոլոգիայի, ELOS-ի և թարթիչների երկարացման համար նախապես ճշտեք մասնագետի խորհուրդները։')},
  {q:l('Где находится салон и когда он открыт?','Where is the salon and when are you open?','Որտե՞ղ է սրահը, և ե՞րբ է այն բաց'),a:l('Ереван, Гюрджян 17. Салон открыт ежедневно с 10:00 до 20:00. Построить маршрут можно в блоке «Ваш первый визит».','17 Gyurjyan Street, Yerevan. Open every day, 10:00–20:00. Get directions in the “Your first visit” section.','Երևան, Գյուրջյան 17։ Աշխատում ենք ամեն օր՝ 10:00–20:00։ Երթուղին կարող եք կառուցել «Ձեր առաջին այցը» բաժնում։')}
 ];
+
+
+const mobileBookingText={
+ ru:{bookingIntro:'Выберите услугу и удобное время. Мы подготовим сообщение для администратора.',moreOptions:'Уточнить процедуру, мастера и дату',selected:'Ваш выбор',name:'Как к вам обращаться (необязательно)',invalid:'Проверьте выбранную услугу и дату. Если указываете телефон, он должен содержать от 8 до 18 цифр.'},
+ en:{bookingIntro:'Choose a service and a convenient time. We will prepare a message for our administrator.',moreOptions:'Add a treatment, specialist and date',selected:'Your selection',name:'Your name (optional)',invalid:'Please check the service and date. If you add a phone number, it should contain 8 to 18 digits.'},
+ hy:{bookingIntro:'Ընտրեք ծառայությունն ու հարմար ժամը։ Մենք հաղորդագրություն կպատրաստենք ադմինիստրատորի համար։',moreOptions:'Նշել ծառայությունը, մասնագետին և ամսաթիվը',selected:'Ձեր ընտրությունը',name:'Ձեր անունը (ըստ ցանկության)',invalid:'Ստուգեք ծառայությունն ու ամսաթիվը։ Եթե նշում եք հեռախոսահամար, այն պետք է պարունակի 8–18 թվանշան։'}
+};
+for(const lang of ['ru','en','hy'])Object.assign(experienceText[lang],mobileBookingText[lang]);
