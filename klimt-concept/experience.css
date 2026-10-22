@@ -17,3 +17,55 @@
 @media(max-width:520px){.team-grid{grid-template-columns:1fr}.procedure-card{display:block}.procedure-choice{flex-direction:row;justify-content:space-between;align-items:center;min-width:0;gap:15px;margin-top:20px}.procedure-choice strong{max-width:55%}.procedure-card p{font-size:12px}.booking-fields{grid-template-columns:1fr}.booking-wide{grid-column:auto}.booking-field input,.booking-field select,.booking-field textarea{font-size:16px}.experience-dialog .booking-status{font-size:11px}.finder-actions>.solid-button{width:100%}}
 :lang(hy) .experience-heading h2,:lang(hy) .visit-layout h2{font-size:clamp(28px,3.1vw,45px);line-height:1.45}:lang(hy) .experience-dialog h2{line-height:1.45}@media(prefers-reduced-motion:reduce){.faq-list summary span{transition:none}}
 .team-actions a,.portfolio-book,.gallery-actions a,.procedure-choice .text-link,.booking-ready-actions a,.booking-ready-actions button,.footer-links a{min-height:44px;align-items:center}.booking-reference button{min-height:44px}.team-actions .text-link{max-width:100%}
+
+/* Clearly recognisable action buttons across the site. */
+.selected-bloom .text-link,
+.selected-bloom .price-row dt>a[data-open-booking],
+.selected-bloom .header-book[data-open-booking],
+.selected-bloom .footer-links a[data-open-booking]{
+ display:inline-flex;align-items:center;justify-content:center;gap:12px;
+ min-height:46px;max-width:100%;width:fit-content;padding:11px 18px;
+ border:1px solid #d4b3c3;border-radius:999px;background:#f4e1e9;color:#49283b;
+ font-weight:500;line-height:1.55;text-decoration:none;text-align:center;
+ box-shadow:0 2px 5px #49283b08;vertical-align:middle;
+ transition:background-color .18s,border-color .18s,box-shadow .18s,transform .18s
+}
+.selected-bloom .text-link:hover,
+.selected-bloom .price-row dt>a[data-open-booking]:hover,
+.selected-bloom .header-book[data-open-booking]:hover,
+.selected-bloom .footer-links a[data-open-booking]:hover{
+ background:#ecd0dd;border-color:#bb8ca3;box-shadow:0 5px 14px #49283b12;transform:translateY(-1px)
+}
+.selected-bloom .text-link:active{transform:translateY(0);box-shadow:none}
+.selected-bloom .text-link:focus-visible,
+.selected-bloom .price-row dt>a[data-open-booking]:focus-visible,
+.selected-bloom .header-book[data-open-booking]:focus-visible{outline:2px solid #8f4e70;outline-offset:4px}
+.selected-bloom .text-link>span[aria-hidden],
+.selected-bloom .header-book[data-open-booking]>span{
+ display:grid;place-items:center;flex-shrink:0;width:24px;height:24px;padding:0;
+ border-radius:50%;background:#fff9f7b3;font-size:17px;line-height:1
+}
+.selected-bloom .header-book[data-open-booking]{font-size:12px;white-space:nowrap}
+.selected-bloom .portfolio-book{display:flex;margin-top:18px}
+.selected-bloom .price-row dt>a[data-open-booking]{margin-top:12px;font-size:11px;min-height:40px;padding:8px 14px}
+.selected-bloom .footer-links a[data-open-booking]{font-size:12px}
+.selected-bloom .visit-layout{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:start;gap:8%}
+.visit-layout .visit-advice h3{margin:0}
+.visit-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:26px}
+.selected-bloom .visit-actions .text-link{margin:0}
+@media(max-width:767px){
+ .selected-bloom .visit-layout{grid-template-columns:1fr;gap:30px}
+ .selected-bloom .text-link{padding:11px 16px}
+ .selected-bloom .visit-actions .text-link{margin:0}
+}
+@media(max-width:520px){
+ .selected-bloom .procedure-choice{flex-direction:column;align-items:stretch;max-width:none;gap:15px}
+ .selected-bloom .procedure-choice strong{max-width:none}
+ .selected-bloom .procedure-choice .text-link{width:100%}
+ .selected-bloom .booking-ready-actions .text-link{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+ .selected-bloom .text-link,.selected-bloom .price-row dt>a[data-open-booking],.selected-bloom .header-book[data-open-booking],.selected-bloom .footer-links a[data-open-booking]{transition:none;transform:none}
+}
+
+@media(max-width:1100px){.selected-bloom .header-book[data-open-booking]{display:none}}

@@ -26,8 +26,8 @@ export function mastersSection(lang){
  return '<section class="team-section shell" id="team" aria-labelledby="team-title"><div class="experience-heading"><h2 id="team-title">'+t.team+'</h2><p>'+t.teamIntro+'</p></div><div class="team-grid">'+masters.filter(m=>m.portrait).map(m=>'<article class="team-card"><div class="team-person"><img src="'+m.portrait+'" width="150" height="150" loading="lazy" decoding="async" alt="'+esc(m.name[lang])+', Klimt"><div><h3>'+m.name[lang]+'</h3><p>'+category(lang,m.service)+'</p></div></div><div class="team-actions">'+ext(m.source,t.masterWork,'text-link')+bookLink(lang,{service:m.service,master:m.id,label:t.masterBook,className:'text-link'})+'</div></article>').join('')+'</div></section>';
 }
 export function visitSection(lang){
- const t=ui[lang],p=experienceConfig.entrance;
- return '<section class="visit-section" id="visit"><div class="shell visit-layout"><figure><img src="'+p.src+'" srcset="'+p.small+' 480w, '+p.src+' 960w" sizes="(max-width:700px) calc(100vw - 40px), 45vw" width="'+p.width+'" height="'+p.height+'" alt="'+t.entranceAlt+'" loading="lazy" decoding="async"><figcaption>'+t.visitIntro+'</figcaption></figure><div><h2>'+t.visit+'</h2><p class="visit-address">'+texts[lang].address+'</p><p>'+t.hours+'</p><h3>'+t.visitBefore+'</h3><p>'+t.visitBeforeText+'</p>'+ext(salon.maps.Google,t.route,'text-link')+bookLink(lang,{className:'text-link'})+'</div></div></section>';
+ const t=ui[lang];
+ return '<section class="visit-section" id="visit"><div class="shell visit-layout"><div class="visit-summary"><h2>'+t.visit+'</h2><p class="visit-address">'+texts[lang].address+'</p><p>'+t.hours+'</p></div><div class="visit-advice"><h3>'+t.visitBefore+'</h3><p>'+t.visitBeforeText+'</p><div class="visit-actions">'+ext(salon.maps.Google,t.route,'text-link')+bookLink(lang,{className:'text-link'})+'</div></div></div></section>';
 }
 export function reviewsSection(lang){
  const t=ui[lang],url='https://yandex.com/maps/org/klimt/76498610218/reviews/';
