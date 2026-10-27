@@ -1,3 +1,5 @@
+export const BOOKING_TIME_SLOTS=Object.freeze(['10:00–12:00','12:00–15:00','15:00–18:00','18:00–20:00']);
+
 export function yerevanToday(now=new Date()){
  return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Yerevan',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
 }
@@ -11,7 +13,7 @@ export function validateBooking(data,config,today=yerevanToday()){
  if(data.master&&!config.masters.some(m=>m.id===data.master&&m.service===data.service))return 'invalid';
  if(data.phone&&(!/^[+\d\s().-]+$/.test(data.phone)||data.phone.replace(/\D/g,'').length<8||data.phone.replace(/\D/g,'').length>18))return 'invalid';
  if(String(data.comment||'').length>600)return 'invalid';
- if(data.time&&!['10:00–12:00','12:00–15:00','15:00–18:00','18:00–20:00'].includes(data.time))return 'invalid';
+ if(data.time&&!BOOKING_TIME_SLOTS.includes(data.time))return 'invalid';
  if(data.date){if(!/^\d{4}-\d{2}-\d{2}$/.test(data.date))return 'invalid';const dt=new Date(data.date+'T12:00:00Z');if(!Number.isFinite(dt.getTime())||dt.toISOString().slice(0,10)!==data.date)return 'invalid';if(data.date<today)return 'noPast';}
  return '';
 }

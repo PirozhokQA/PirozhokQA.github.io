@@ -69,3 +69,10 @@ Mobile body copy is 16px, supporting text and action labels are generally 14px, 
 The fixed Instagram action opens the official profile directly. The booking form initially shows service, preferred time and comment, with optional procedure, master, date, name and phone inside a disclosure. Service is the only required field. Preselected procedures/authors remain visible in a summary and photo references are preserved. The existing explicit manual Instagram handoff and administrator confirmation remain.
 
 The mobile lightbox uses the full viewport width, with 48px navigation controls below the image, a fixed close control, horizontal swipe navigation, keyboard support and focus restoration. Vertical scroll and multi-touch gestures are not intercepted. The hero offers a mobile link to services/prices. Browser QA remains limited by the unavailable browser tool; run source/DOM/behaviour checks and verify production publication.
+
+
+### Revision 18 — first-screen fixes and ub-mode review (2026-10-27)
+
+The primary action now fits in the first screen on the checked desktop and phone viewports. The flower header keeps its natural lower silhouette, the home introduction is grouped semantically, mobile copy/actions precede the decorative hero image, repeated service context is an accessible label, and desktop captions are at least 12px. The original salon content and handoff controls remain. Booking intervals are exported once from booking-core.mjs for the renderer and validator.
+
+Verification: 45/45 browser layout/readability cases; existing booking/finder/mobile regressions; shared-slot domain checks; sloplint render findings reduced from 3 FAIL / 8 REFLEX / 2 WARN to 0 FAIL / 3 REFLEX / 2 WARN. See revision-18.md for the action log, manual code review, unavailable specialist analysis tools and the reasons for retaining the remaining stylistic differences.

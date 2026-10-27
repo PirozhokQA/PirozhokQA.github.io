@@ -1,3 +1,4 @@
+import {BOOKING_TIME_SLOTS} from '../booking-core.mjs';
 import {salon,texts} from '../../klimt-beauty-house/_source/content.mjs';
 import {experienceText as ui,procedures,masters,reviews,faqItems,experienceConfig} from './experience-data.mjs';
 import {priceGroups,formatPrice} from './pricing.mjs';
@@ -45,7 +46,7 @@ export function bookingExperience(lang){
  const servicesOptions='<option value="">'+t.servicePrompt+'</option>'+services.map(s=>'<option value="'+s.slug+'">'+s.name+'</option>').join('');
  return '<dialog class="booking-dialog experience-dialog" id="booking-dialog" aria-labelledby="booking-title"><button class="dialog-close" type="button" data-close-dialog aria-label="'+t.close+'">×</button><div class="booking-form-view"><p class="eyebrow">Klimt Beauty House</p><h2 id="booking-title">'+t.bookingTitle+'</h2><p class="dialog-intro">'+t.bookingIntro+'</p><p class="booking-status">'+t.bookingStatus+'</p><form class="booking-form"><div class="booking-fields">'+
  field('service',t.service,'<select id="booking-service" name="service" required>'+servicesOptions+'</select>')+
- field('time',t.time,'<select id="booking-time" name="time"><option value="">'+t.anyTime+'</option>'+['10:00–12:00','12:00–15:00','15:00–18:00','18:00–20:00'].map(v=>'<option value="'+v+'">'+v+'</option>').join('')+'</select>')+
+ field('time',t.time,'<select id="booking-time" name="time"><option value="">'+t.anyTime+'</option>'+BOOKING_TIME_SLOTS.map(v=>'<option value="'+v+'">'+v+'</option>').join('')+'</select>')+
  '<label class="booking-field booking-wide" for="booking-comment"><span>'+t.comment+'</span><textarea id="booking-comment" name="comment" rows="3" maxlength="600" placeholder="'+t.commentHint+'"></textarea></label></div><p class="booking-selection" hidden></p><details class="booking-extras"><summary>'+t.moreOptions+'<span aria-hidden="true">+</span></summary><div class="booking-fields">'+
  field('procedure',t.procedure,'<select id="booking-procedure" name="procedure"></select>')+
  field('master',t.master,'<select id="booking-master" name="master"></select>')+
