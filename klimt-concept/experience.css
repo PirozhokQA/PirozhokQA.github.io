@@ -247,3 +247,9 @@
  :lang(hy) .selected-bloom .service-intro h1{font-size:30px;line-height:1.35}
  :lang(hy) .selected-bloom .bloom-message h2{font-size:30px;line-height:1.3}
 }
+
+/* Restore the full floral canopy on desktop; retain the compact mobile header. */
+@media(min-width:768px){
+ .selected-bloom .floral-masthead{height:calc(var(--flower-span)*.216950714 + 40px)}
+ .selected-bloom .floral-canopy{top:calc(var(--flower-span)*-.0460617227)}
+}
