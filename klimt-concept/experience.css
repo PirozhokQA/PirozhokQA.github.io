@@ -195,3 +195,55 @@
  .selected-bloom .form-error,.selected-bloom .copy-status,.selected-bloom .booking-ready>label{font-size:14px;line-height:1.65}
  .selected-bloom .booking-ready textarea{font-size:16px!important;line-height:1.7!important}
 }
+
+
+/* Revision 18: compact introduction, readable captions and one button scale. */
+.selected-bloom{--intro-flowers:136px;--intro-nav:72px;--caption-size:12px;--flower-bottom-ratio:.263012437}
+.selected-bloom .floral-masthead{height:var(--intro-flowers)}
+.selected-bloom .floral-canopy{top:calc(var(--intro-flowers) - var(--flower-span)*var(--flower-bottom-ratio) - 12px)}
+.selected-bloom .site-nav{min-height:var(--intro-nav)}
+.selected-bloom .home-intro{min-width:0}
+.selected-bloom .brand-block{margin:18px auto 24px}
+.selected-bloom .brand-meta{font-size:var(--caption-size);line-height:1.6;gap:12px;flex-wrap:wrap}
+.selected-bloom .brand-block h1{font-size:clamp(110px,10vw,150px);line-height:.9;padding:8px 0 4px;overflow-wrap:break-word;min-width:0}
+.selected-bloom .brand-caption{display:block;text-align:center;padding-top:8px;font-size:var(--caption-size);line-height:1.4;letter-spacing:.35em}
+.selected-bloom .bloom-image .campaign-photo img{height:clamp(300px,calc(100svh - 500px),520px);aspect-ratio:auto;object-fit:cover;object-position:center}
+.selected-bloom .bloom-message{left:58%;top:50%;width:36%;max-width:500px}
+.selected-bloom .bloom-message h2{font-size:clamp(30px,3.2vw,46px);line-height:1.2;letter-spacing:-.035em;margin:0 0 24px;overflow-wrap:break-word;min-width:0}
+.selected-bloom .hero-under{margin-top:8px;min-height:44px}
+.selected-bloom .service-page{padding-top:18px}
+.selected-bloom .service-toolbar{min-height:44px}
+.selected-bloom .service-wordmark{font-size:clamp(76px,7vw,110px);margin:18px 0 24px}
+.selected-bloom .service-wordmark>span{font-size:var(--caption-size);line-height:1.5;margin-top:14px}
+.selected-bloom .service-intro{padding-bottom:32px}
+.selected-bloom .service-intro h1{font-size:clamp(38px,4vw,60px);line-height:1.2;margin:16px 0;overflow-wrap:break-word;min-width:0}
+.selected-bloom .service-description{font-size:16px;line-height:1.65;max-width:65ch}
+.selected-bloom .service-intro .solid-button{margin-top:22px}
+.selected-bloom .solid-button{font-size:14px;line-height:1.5;min-height:48px;padding:12px 20px;gap:16px}
+.selected-bloom .solid-button>span{font-size:20px;line-height:1}
+.selected-bloom .eyebrow,
+.selected-bloom .portfolio-heading>div>.eyebrow,
+.selected-bloom .portfolio-source,
+.selected-bloom .portfolio-author,
+.selected-bloom .portfolio-number,
+.selected-bloom .review-card time,
+.selected-bloom .price-sources,
+.selected-bloom .price-footnote,
+.selected-bloom .bottom-note{font-size:var(--caption-size);line-height:1.65}
+.selected-bloom .portfolio-source{min-height:44px;align-items:center}
+.selected-bloom .language-trigger{font-size:var(--caption-size)}
+@media(max-width:767px){
+ .selected-bloom{--intro-flowers:96px;--intro-nav:64px}
+ .selected-bloom .brand-block{margin:16px auto 18px}
+ .selected-bloom .brand-block h1{font-size:27vw}
+ .selected-bloom .bloom-image{display:flex;flex-direction:column}
+ .selected-bloom .bloom-message{order:-1;position:static;transform:none;width:calc(100% - 40px);max-width:none;margin:20px auto 24px}
+ .selected-bloom .bloom-message h2{font-size:32px;line-height:1.2;margin-bottom:20px}
+ .selected-bloom .bloom-image .campaign-photo img{height:260px;object-position:24% center}
+ .selected-bloom .hero-actions{display:grid;gap:12px}
+ .selected-bloom .service-wordmark{font-size:76px;margin:12px 0 20px}
+ .selected-bloom .service-intro h1{font-size:36px;margin:14px 0}
+ .selected-bloom .service-intro .solid-button{margin-top:20px}
+ :lang(hy) .selected-bloom .service-intro h1{font-size:30px;line-height:1.35}
+ :lang(hy) .selected-bloom .bloom-message h2{font-size:30px;line-height:1.3}
+}
