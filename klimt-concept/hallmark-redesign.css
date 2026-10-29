@@ -1,0 +1,74 @@
+/* Hallmark · redesign: full · genre: editorial · brand: Klimt · signature: floral entrance · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H4 E3 S5 R4 V4 · the actual floral entrance leads the composition. */
+:root{--hm-paper:#fff9f7;--hm-paper-soft:#f6e9ed;--hm-ink:#49283b;--hm-muted:#705762;--hm-rule:#dec8d4;--hm-light:#fffdfb;--hm-accent:#ead3dd;--hm-font:var(--body);--hm-display:var(--serif)}
+html,body{overflow-x:clip}
+.selected-bloom .shell{width:min(100% - 64px,1320px);margin-inline:auto}
+.selected-bloom .site-nav{min-height:80px;gap:24px}
+.selected-bloom .site-nav>a,.selected-bloom .brand-meta,.selected-bloom .brand-caption{letter-spacing:normal;text-transform:none}
+.selected-bloom .site-nav>a{font-size:14px}
+.selected-bloom .desktop-nav{gap:24px;font-size:14px;letter-spacing:normal}
+.selected-bloom .brand-block{margin:24px auto 32px}
+.selected-bloom .brand-block h1{text-align:left;font-size:clamp(100px,10vw,164px);line-height:.9;letter-spacing:-.055em}
+.selected-bloom .brand-caption{text-align:left;font-size:14px;letter-spacing:.12em}
+.selected-bloom .brand-meta{font-size:14px}
+.selected-bloom .hero-bloom{background:var(--hm-paper-soft)}
+.selected-bloom .bloom-image{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:stretch}
+.selected-bloom .bloom-image .campaign-photo img{height:clamp(360px,36vw,510px);width:100%;object-fit:cover}
+.selected-bloom .bloom-message{position:static;transform:none;width:auto;max-width:none;display:flex;flex-direction:column;justify-content:center;padding:clamp(32px,5vw,76px)}
+.selected-bloom .bloom-message h2{font-size:clamp(40px,4vw,64px);line-height:1.13;letter-spacing:-.035em;margin:0 0 32px;overflow-wrap:break-word;min-width:0}
+.selected-bloom .hero-under{margin-top:0;justify-content:flex-end;min-height:56px}
+.selected-bloom .services-section{padding-block:100px}
+.selected-bloom .section-heading{grid-template-columns:minmax(0,1fr) minmax(0,.55fr);gap:48px;align-items:end}
+.selected-bloom .section-heading h2,.selected-bloom .experience-heading h2{font-size:clamp(36px,4vw,56px);overflow-wrap:break-word;min-width:0}
+.selected-bloom .section-intro,.selected-bloom .experience-heading>p{font-size:16px;max-width:32ch}
+.selected-bloom .service-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
+.selected-bloom .service-chips .service-item{border:0;border-top:1px solid var(--hm-rule);border-radius:0;background:transparent;box-shadow:none;padding:32px 44px 32px 0;min-height:190px}
+.selected-bloom .service-chips .service-item h3{font-size:clamp(27px,2.4vw,36px);margin:0 0 12px}
+.selected-bloom .service-chips .service-item p{font-size:16px;line-height:1.7;max-width:38ch}
+.selected-bloom .service-card-action{font-size:14px;margin-top:20px}
+.selected-bloom .finder-section{border-radius:0;background:var(--hm-paper-soft);padding:48px;gap:48px}
+.selected-bloom .team-card,.selected-bloom .review-card{border-radius:0;background:transparent;border:0;border-top:1px solid var(--hm-rule);padding:28px 0}
+.selected-bloom .team-grid,.selected-bloom .review-grid{gap:32px}
+.selected-bloom .visit-section{background:var(--hm-paper-soft)}
+.selected-bloom .about-bloom .split-bloom{gap:7%;align-items:center}
+.selected-bloom .about-bloom h2{font-size:clamp(40px,4vw,60px)}
+.selected-bloom .faq-list summary{font-size:18px}
+.selected-bloom .contact-section{background:var(--hm-paper-soft)}
+.selected-bloom .contact-section h2{font-size:clamp(58px,7vw,100px)}
+.selected-bloom .solid-button:focus-visible,.selected-bloom a:focus-visible,.selected-bloom button:focus-visible,.selected-bloom summary:focus-visible,.selected-bloom input:focus-visible,.selected-bloom select:focus-visible,.selected-bloom textarea:focus-visible{outline:2px solid var(--hm-ink);outline-offset:4px}
+@media(max-width:767px){
+ .selected-bloom .shell{width:calc(100% - 40px)}
+ .selected-bloom .site-nav{min-height:64px}
+ .selected-bloom .brand-block{margin:20px auto 24px}
+ .selected-bloom .brand-block h1{font-size:27vw}
+ .selected-bloom .brand-caption{font-size:12px}
+ .selected-bloom .brand-meta{font-size:12px}
+ .selected-bloom .bloom-image{display:flex;flex-direction:column}
+ .selected-bloom .bloom-message{order:0;margin:0;width:auto;padding:36px 20px}
+ .selected-bloom .bloom-message h2{font-size:36px;margin-bottom:24px}
+ .selected-bloom .bloom-image .campaign-photo{order:1}
+ .selected-bloom .bloom-image .campaign-photo img{height:260px}
+ .selected-bloom .hero-under{min-height:48px}
+ .selected-bloom .services-section{padding-block:72px}
+ .selected-bloom .section-heading{display:block}
+ .selected-bloom .section-intro{margin-top:20px}
+ .selected-bloom .service-items{grid-template-columns:minmax(0,1fr);gap:0}
+ .selected-bloom .service-chips .service-item{min-height:0;padding:28px 40px 28px 0}
+ .selected-bloom .finder-section{padding:28px 24px}
+ .selected-bloom .team-grid,.selected-bloom .review-grid{gap:20px}
+ :lang(hy) .selected-bloom .bloom-message h2{font-size:30px;line-height:1.3}
+}
+@media(prefers-reduced-motion:reduce){.selected-bloom *, .selected-bloom *::before,.selected-bloom *::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+@media(min-width:768px){
+ .selected-bloom .brand-block{margin:12px auto 12px}
+ .selected-bloom .brand-block h1{font-size:clamp(80px,7vw,125px)}
+ .selected-bloom .bloom-image .campaign-photo img{height:240px}
+ .selected-bloom .bloom-message{padding:24px 6%}
+ .selected-bloom .bloom-message h2{font-size:clamp(32px,3vw,46px);margin-bottom:20px}
+}
+@media(min-width:768px){:lang(hy) .selected-bloom .service-intro h1{font-size:clamp(34px,3vw,48px);line-height:1.25;margin:12px 0}:lang(hy) .selected-bloom .service-intro .solid-button{margin-top:16px}}
+/* Hallmark · waive 59 · the salon retains its existing reviews and FAQ sections; 90px separates the compact adjacent sections. */
+/* Hallmark · dismissed 59 · all ten existing sections provide requested salon information and booking guidance. */
+
+.selected-bloom .solid-button:active,.selected-bloom .text-link:active{transform:translateY(1px)}
+.selected-bloom h1,.selected-bloom h2{text-wrap:balance}
